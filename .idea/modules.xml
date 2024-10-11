@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/compiti_info.iml" filepath="$PROJECT_DIR$/.idea/compiti_info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es1_209/es1_209.iml" filepath="$PROJECT_DIR$/es1_209/es1_209.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progetto_bicicletta/progetto_bicicletta.iml" filepath="$PROJECT_DIR$/progetto_bicicletta/progetto_bicicletta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progetto_calcolatrice/progetto_calcolatrice.iml" filepath="$PROJECT_DIR$/progetto_calcolatrice/progetto_calcolatrice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progetto_classe/progetto_classe.iml" filepath="$PROJECT_DIR$/progetto_classe/progetto_classe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progetto_geometria/progetto_geometria.iml" filepath="$PROJECT_DIR$/progetto_geometria/progetto_geometria.iml" />
+    </modules>
+  </component>
+</project>
