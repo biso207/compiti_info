@@ -3,7 +3,6 @@ Classe Squadra - permette la creazione delle squadre di un campionato
 Luca Bisognin - 17/10/2024
 */
 
-
 public class Squadra {
     private String nome;
 
@@ -19,6 +18,6 @@ public class Squadra {
 
     // stampa nome squadra
     public String toString() {
-        return "Squadra: " + nome;
+        return nome;
     }
 }
