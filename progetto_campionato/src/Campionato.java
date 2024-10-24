@@ -15,14 +15,19 @@ public class Campionato {
     public static final String GREEN = "\033[0;32m";   // GREEN
     public static final String RESET = "\033[0m";  // reset colore
 
-    int squadre_presenti, pos;
+    int squadre_presenti, pos, numTeams;
     final int TOTALE_SQUADRE = 20;
-    // arrayList delle squadre dell'oggetto campionato creato nel main
-    ArrayList<Squadra> teams = new ArrayList<>(TOTALE_SQUADRE);
+    String name;
+    ArrayList<Squadra> teams; // arrayList di oggetto Squadra
 
 
     // costruttore -> crea gli oggetti Squadra
-    public Campionato(String dataFile) {
+    public Campionato(String name, int numTeams, String dataFile) {
+        this.name = name;
+
+        // creazione dell'arrayList di 'numTeams' posizioni
+        teams = new ArrayList<>(numTeams);
+
         // try-catch di controllo esistenza file con la lista delle squadre
         try {
             File f = new File(dataFile); // file lista squadre
@@ -33,7 +38,6 @@ public class Campionato {
                 teams.add(i, new Squadra(scanner.nextLine()));
                 squadre_presenti = i;
             }
-
         } catch (Exception ex) {
             System.out.println("Errore: " + ex.getMessage());
         }
@@ -42,7 +46,7 @@ public class Campionato {
     // case 2 -> toString per la stampa dell'elenco delle squadre
     public String toString() {
         int i=1; // indice lista
-        StringBuilder s = new StringBuilder("\nSquadre nel campionato\n");
+        StringBuilder s = new StringBuilder(name + "\n");
         for (Squadra t : teams) {
             s.append("[").append(i).append("] ").append(t).append("\n");
             i++;

@@ -34,50 +34,82 @@ public class Main  {
         int choice;
 
         printMenu();
-        // costruzione oggetto campionato
-        Campionato serieA = new Campionato("progetto_campionato/data/serieA.csv");
+        // costruzione oggetti campionato
+        Campionato serieA = new Campionato("Seria A",20, "progetto_campionato/data/serieA.csv");
+        Campionato bundesliga = new Campionato("Bundesliga",18, "progetto_campionato/data/bundesliga.csv");
+        Campionato lba = new Campionato("LBA",16, "progetto_campionato/data/LBA.csv");
+        Campionato campionato = serieA; // campionato di default
 
-        do {
-            System.out.print("Scelta: ");
-            choice = scanner.nextInt();
+        System.out.println("""
+        Scegli il campionato su cui lavorare
+        [1] Serie A
+        [2] Bundesliga
+        [3] LBA
+        """);
 
-            switch(choice) {
-                // stampa elenco squadre
+
+        int choiceCamp; // var per scegliere il campionato
+        try {
+            System.out.print("Campionato: ");
+            choiceCamp = scanner.nextInt();
+            switch (choiceCamp) {
                 case 1:
-                    printMenu();
                     break;
-                // stampa elenco squadre
                 case 2:
-                    System.out.println(serieA);
+                    campionato = bundesliga;
                     break;
-                // aggiungi squadra
                 case 3:
-                    serieA.addTeam(scanner);
-                    break;
-                // aggiunga squadra in una posizione
-                case 4:
-                    serieA.addTeamInPos(scanner);
-                    break;
-                // rimuovi ultima squadra
-                case 5:
-                    serieA.removeLastTeam();
-                    break;
-                // rimuovi squadra a piacere
-                case 6:
-                    serieA.removeTeam(scanner);
-                    break;
-                // modifica nome squadra
-                case 7:
-                    serieA.changeTeamName(scanner);
-                    break;
-                // salva modifiche
-                case 8:
-                    serieA.saveChanges();
+                    campionato = lba;
                     break;
                 default:
-                    System.out.print("- Programma Chiuso Correttamente -");
-                    break;
+                    System.out.println("Valore inesistente");
             }
-        } while(choice!=0);
+
+
+            do {
+                System.out.print("Scelta: ");
+                choice = scanner.nextInt();
+                switch(choice) {
+                    // stampa elenco squadre
+                    case 1:
+                        printMenu();
+                        break;
+                    // stampa elenco squadre
+                    case 2:
+                        System.out.println(campionato);
+                        break;
+                    // aggiungi squadra
+                    case 3:
+                        campionato.addTeam(scanner);
+                        break;
+                    // aggiunga squadra in una posizione
+                    case 4:
+                        campionato.addTeamInPos(scanner);
+                        break;
+                    // rimuovi ultima squadra
+                    case 5:
+                        campionato.removeLastTeam();
+                        break;
+                    // rimuovi squadra a piacere
+                    case 6:
+                        campionato.removeTeam(scanner);
+                        break;
+                    // modifica nome squadra
+                    case 7:
+                        campionato.changeTeamName(scanner);
+                        break;
+                    // salva modifiche
+                    case 8:
+                        campionato.saveChanges();
+                        break;
+                    default:
+                        System.out.print("- Programma Chiuso Correttamente -");
+                        break;
+                }
+            } while(choice!=0);
+        }
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
