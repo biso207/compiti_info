@@ -25,7 +25,7 @@ public class Campionato {
     public Campionato(String name, int numTeams, String dataFile) {
         this.name = name;
 
-        // creazione dell'arrayList di 'numTeams' posizioni
+        // init dell'arrayList di 'numTeams' posizioni
         teams = new ArrayList<>(numTeams);
 
         // try-catch di controllo esistenza file con la lista delle squadre
@@ -33,13 +33,13 @@ public class Campionato {
             File f = new File(dataFile); // file lista squadre
             Scanner scanner = new Scanner(f);
             // for per creare gli oggetti Squadra
-            for (int i = 0; i < TOTALE_SQUADRE && scanner.hasNextLine(); i++) {
-                // creazione dei singoli oggetti Squadra e aggiunta all'array
+            for (int i = 0; scanner.hasNextLine(); i++) {
+                // creazione dei singoli oggetti Squadra e aggiunta all'ArrayList
                 teams.add(i, new Squadra(scanner.nextLine()));
                 squadre_presenti = i;
             }
         } catch (Exception ex) {
-            System.out.println("Errore: " + ex.getMessage());
+            System.out.println(RED + "Errore: " + ex.getMessage() + RESET);
         }
     }
 

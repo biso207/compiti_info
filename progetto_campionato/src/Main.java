@@ -13,7 +13,7 @@ public class Main  {
                ------------------------------------------------
                | [0] Termina Programma                        |
                | [1] Stampa Menù                              |
-               | [2] Stampa Squadre del Campionato di Serie A |
+               | [2] Stampa Squadre del Campionato            |
                | [3] Aggiungi Squadra al campionato           |
                | [4] Aggiungi Squadra in Posizione a Piacere  |
                | [5] Rimuovi Ultima Squadra del campionato    |
@@ -65,9 +65,11 @@ public class Main  {
                     System.out.println("Valore inesistente");
             }
 
+            System.out.println("\nCampionato " + campionato.name + " selezionato correttamente.");
+
 
             do {
-                System.out.print("Scelta: ");
+                System.out.print("\nScelta: ");
                 choice = scanner.nextInt();
                 switch(choice) {
                     // stampa elenco squadre
