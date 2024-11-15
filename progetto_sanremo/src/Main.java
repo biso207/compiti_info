@@ -29,7 +29,11 @@ public class Main {
             }
 
             // stampa elenco concorrenti
-            System.out.println(concorrenti);
+            int j=1;
+            for (String s : concorrenti) {
+                System.out.println(j + ") " + s);
+                j++;
+            }
 
             scanFile.close();
 
