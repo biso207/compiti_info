@@ -5,12 +5,12 @@ classe Barca del progetto Porto. Contiene metodi e attributi per creare oggetti 
 
 public class Barca {
     // attributi
-    String nome, nazionalita, tipologia;
+    String nome, nazione, tipologia;
     int lunghezza, stazza;
 
-    Barca(String nome, String nazionalita, String tipologia, int lunghezza, int stazza) {
+    Barca(String nome, String nazione, String tipologia, int lunghezza, int stazza) {
         this.nome = nome;
-        this.nazionalita = nazionalita;
+        this.nazione = nazione;
         this.tipologia = tipologia;
         this.lunghezza = lunghezza;
         this.stazza = stazza;

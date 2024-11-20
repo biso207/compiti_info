@@ -11,13 +11,15 @@ public class Main {
     // menù delle azioni
     public static void menu() {
         System.out.println("""
-                1) assegna posto
-                2) libera posto occupato
-                3) ricerca barca per posto
-                4) salva stato del porto
-                5) stampa elenco barche nel porto
-                6) mostra menù
-                7) chiudi software
+                --------------------------------------
+                | (1) Assegna posto                  |
+                | (2) Libera posto occupato          |
+                | (3) Ricerca barca per posto        |
+                | (4) Salva stato del porto          |
+                | (5) Stampa elenco barche nel porto |
+                | (6) Mostra menù                    |
+                | (7) Chiudi software                |
+                --------------------------------------
                 """);
     }
 
@@ -52,7 +54,7 @@ public class Main {
                     menu();
                     break;
                 default:
-                    System.out.println("Errore nella lettura del programma");
+                    System.out.println("Input fuori menù.");
                     break;
             }
             System.out.print("\nNuova scelta: ");
