@@ -5,13 +5,9 @@ Progetto MyArray per creare una classe che crea array dinamici.
 
 public class Main {
     public static void main(String[] args) {
-        MyArray array = new MyArray(5, 5);
-        array.add(10);
-        array.add(20);
-        array.add(30);
-        array.add(40);
-        array.add(50);
-        array.add(60);
+        MyArray array = new MyArray(100000, 100000);
+
+        for (int i = 0; i < 100000000; i++) {array.add(i);}
 
         System.out.println(array);
     }
