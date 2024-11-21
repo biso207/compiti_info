@@ -10,9 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/progetto_campionato/progetto_campionato.iml" filepath="$PROJECT_DIR$/progetto_campionato/progetto_campionato.iml" />
       <module fileurl="file://$PROJECT_DIR$/progetto_classe/progetto_classe.iml" filepath="$PROJECT_DIR$/progetto_classe/progetto_classe.iml" />
       <module fileurl="file://$PROJECT_DIR$/progetto_ereditarieta/progetto_ereditarieta.iml" filepath="$PROJECT_DIR$/progetto_ereditarieta/progetto_ereditarieta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progetto_frigorifero/progetto_frigorifero.iml" filepath="$PROJECT_DIR$/progetto_frigorifero/progetto_frigorifero.iml" />
       <module fileurl="file://$PROJECT_DIR$/progetto_garage/progetto_garage.iml" filepath="$PROJECT_DIR$/progetto_garage/progetto_garage.iml" />
       <module fileurl="file://$PROJECT_DIR$/progetto_generics/progetto_generics.iml" filepath="$PROJECT_DIR$/progetto_generics/progetto_generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/progetto_geometria/progetto_geometria.iml" filepath="$PROJECT_DIR$/progetto_geometria/progetto_geometria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progetto_my_array/progetto_my_array.iml" filepath="$PROJECT_DIR$/progetto_my_array/progetto_my_array.iml" />
       <module fileurl="file://$PROJECT_DIR$/progetto_portoo/progetto_porto.iml" filepath="$PROJECT_DIR$/progetto_portoo/progetto_porto.iml" />
       <module fileurl="file://$PROJECT_DIR$/progetto_sanremo/progetto_sanremo.iml" filepath="$PROJECT_DIR$/progetto_sanremo/progetto_sanremo.iml" />
     </modules>
