@@ -5,8 +5,8 @@ classe Barca del progetto Barche. Contiene metodi e attributi per creare oggetti
 
 public class Barca {
     // attributi
-    String nome, nazione, tipologia;
-    int lunghezza, stazza;
+    private final String nome, nazione, tipologia;
+    private final int lunghezza, stazza;
 
     Barca(String nome, String nazione, String tipologia, int lunghezza, int stazza) {
         this.nome = nome;
@@ -16,5 +16,24 @@ public class Barca {
         this.stazza = stazza;
     }
 
+    public int getStazza() {
+        return stazza;
+    }
+
+    public int getLunghezza() {
+        return lunghezza;
+    }
+
+    public String getTipologia() {
+        return tipologia;
+    }
+
+    public String getNazione() {
+        return nazione;
+    }
+
+    public String getNome() {
+        return nome;
+    }
 
 }

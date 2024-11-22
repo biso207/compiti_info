@@ -280,9 +280,9 @@ public class Frigorifero {
 
             // stampa con for-each dei prodotti
             for (Prodotto p : listaProdotti) {
-                System.out.println("\nProdotto " + index + "\n Codice: " + p.codice + "\n Descrizione: " + p.descrizione + "\n" +
-                        " Data Scadenza (m/g/a): " + p.meseScadenza + "/" + p.giornoScadenza + "/" + p.annoScadenza + "\n" +
-                        " Calorie: " + p.calorie + " Kj");
+                System.out.println("\nProdotto " + index + "\n Codice: " + p.getCodice() + "\n Descrizione: " + p.getDescrizione() + "\n" +
+                        " Data Scadenza (m/g/a): " + p.getMeseScadenza() + "/" + p.getGiornoScadenza() + "/" + p.getAnnoScadenza() + "\n" +
+                        " Calorie: " + p.getCalorie() + " Kj");
                 index++;
             }
         }
@@ -300,11 +300,11 @@ public class Frigorifero {
 
             // stampa con for-each dei prodotti
             for (Prodotto p : listaProdotti) {
-                boolean isScaduto = calcoloData(p.giornoScadenza, p.meseScadenza, p.annoScadenza);
+                boolean isScaduto = calcoloData(p.getGiornoScadenza(), p.getMeseScadenza(), p.getAnnoScadenza());
                 if (isScaduto) {
-                    System.out.println("\nProdotto " + index + "\n Codice: " + p.codice + "\n Descrizione: " + p.descrizione + "\n" +
-                            " Data Scadenza (m/g/a): " + p.meseScadenza + "/" + p.giornoScadenza + "/" + p.annoScadenza + "\n" +
-                            " Calorie: " + p.calorie + " Kj");
+                    System.out.println("\nProdotto " + index + "\n Codice: " + p.getCodice() + "\n Descrizione: " + p.getDescrizione() + "\n" +
+                            " Data Scadenza (m/g/a): " + p.getMeseScadenza() + "/" + p.getGiornoScadenza() + "/" + p.getAnnoScadenza() + "\n" +
+                            " Calorie: " + p.getCalorie() + " Kj");
                     index++;
                     contScaduti++;
                 }
@@ -384,12 +384,12 @@ public class Frigorifero {
 
             for (Prodotto p: listaProdotti) {
                 if (p!=null) {
-                    writeCodice.write(p.codice + "\n"); // codice
-                    writeDescrizione.write(p.descrizione + "\n"); // descrizione
-                    writeG.write(p.giornoScadenza + "\n"); // giorno scadenza
-                    writeM.write(p.meseScadenza + "\n"); // mese scadenza
-                    writeA.write(p.annoScadenza + "\n"); // anno scadenza
-                    writeCalorie.write(p.calorie + "\n"); // calorie
+                    writeCodice.write(p.getCodice() + "\n"); // codice
+                    writeDescrizione.write(p.getDescrizione() + "\n"); // descrizione
+                    writeG.write(p.getGiornoScadenza() + "\n"); // giorno scadenza
+                    writeM.write(p.getMeseScadenza() + "\n"); // mese scadenza
+                    writeA.write(p.getAnnoScadenza() + "\n"); // anno scadenza
+                    writeCalorie.write(p.getCalorie() + "\n"); // calorie
                 }
             }
         }

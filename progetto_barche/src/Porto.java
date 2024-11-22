@@ -233,17 +233,17 @@ public class Porto {
 
             int basePrice=0; // costo dell'affitto
 
-            if (bSelected.tipologia.equals("vela")) {
-                basePrice=10*bSelected.lunghezza;
+            if (bSelected.getTipologia().equals("vela")) {
+                basePrice=10*bSelected.getLunghezza();
                 basePrice*=numGiorni;
             }
-            else if (bSelected.tipologia.equals("motore")) {
-                basePrice=20*bSelected.stazza;
+            else if (bSelected.getTipologia().equals("motore")) {
+                basePrice=20*bSelected.getStazza();
                 basePrice*=numGiorni;
             }
 
             // stampa costo dell'affitto
-            System.out.println("Avendo una barca a " + bSelected.tipologia + " ed essendo stata in porto per " +
+            System.out.println("Avendo una barca a " + bSelected.getTipologia() + " ed essendo stata in porto per " +
                     numGiorni + " giorni.\nIl costo dell'affitto del posto è di €" + basePrice + ".");
 
             // rimozione barca
@@ -289,8 +289,8 @@ public class Porto {
             }
 
             // stampa informazioni barca selezionata
-            System.out.println("Barca a " + bSelected.tipologia + " '" + bSelected.nome + "'.\nNazione: " + bSelected.nazione + "\nLunghezza: " +
-                    bSelected.lunghezza + " metri\nStazza: " + bSelected.stazza + " tonnellate.\n");
+            System.out.println("Barca a " + bSelected.getTipologia() + " '" + bSelected.getNome() + "'.\nNazione: " + bSelected.getNazione() + "\nLunghezza: " +
+                    bSelected.getLunghezza() + " metri\nStazza: " + bSelected.getStazza() + " tonnellate.\n");
         }
     }
 
@@ -312,11 +312,11 @@ public class Porto {
 
             for (Barca b: listaBarche) {
                 if (b!=null) {
-                    writeName.write(b.nome + "\n"); // nome
-                    writeLen.write(b.lunghezza + "\n"); // lunghezza
-                    writeNazione.write(b.nazione + "\n"); // nazione
-                    writeStazza.write(b.stazza + "\n"); // stazza
-                    writeTipo.write(b.tipologia + "\n"); // tipo
+                    writeName.write(b.getNome() + "\n"); // nome
+                    writeLen.write(b.getLunghezza() + "\n"); // lunghezza
+                    writeNazione.write(b.getNazione() + "\n"); // nazione
+                    writeStazza.write(b.getStazza() + "\n"); // stazza
+                    writeTipo.write(b.getTipologia() + "\n"); // tipo
                 }
             }
         }
@@ -349,8 +349,8 @@ public class Porto {
         if (sommaPosti>=1) {
             for (Barca b : listaBarche) {
                 if (b != null) {
-                    System.out.println("Posto [" + index + "] - Barca a " + b.tipologia + " '" + b.nome + "'.\nNazione: " + b.nazione + "\nLunghezza: " +
-                            b.lunghezza + " metri\nStazza: " + b.stazza + " tonnellate.\n");
+                    System.out.println("Posto [" + index + "]\n Barca a " + b.getTipologia() + " '" + b.getNome() + "'.\n Nazione: " + b.getNazione() + "\n Lunghezza: " +
+                            b.getLunghezza() + " metri\n Stazza: " + b.getStazza() + " tonnellate.\n");
                 }
                 index++;
             }
