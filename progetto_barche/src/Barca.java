@@ -36,4 +36,9 @@ public class Barca {
         return nome;
     }
 
+    public String toString() {
+        return (" Barca a " + tipologia + " '" + nome + "'.\n Nazione: " + nazione + "\n Lunghezza: " +
+                lunghezza + " metri\n Stazza: " + stazza + " tonnellate.\n");
+    }
+
 }

@@ -288,9 +288,9 @@ public class Porto {
                 return;
             }
 
+            System.out.println("Barca selezionata al posto " + pos + ".");
             // stampa informazioni barca selezionata
-            System.out.println("Barca a " + bSelected.getTipologia() + " '" + bSelected.getNome() + "'.\nNazione: " + bSelected.getNazione() + "\nLunghezza: " +
-                    bSelected.getLunghezza() + " metri\nStazza: " + bSelected.getStazza() + " tonnellate.\n");
+            System.out.println(bSelected);
         }
     }
 
@@ -349,8 +349,8 @@ public class Porto {
         if (sommaPosti>=1) {
             for (Barca b : listaBarche) {
                 if (b != null) {
-                    System.out.println("Posto [" + index + "]\n Barca a " + b.getTipologia() + " '" + b.getNome() + "'.\n Nazione: " + b.getNazione() + "\n Lunghezza: " +
-                            b.getLunghezza() + " metri\n Stazza: " + b.getStazza() + " tonnellate.\n");
+                    System.out.println("Posto [" + index + "]");
+                    System.out.println(b);
                 }
                 index++;
             }
