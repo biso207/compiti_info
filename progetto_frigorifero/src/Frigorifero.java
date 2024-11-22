@@ -3,7 +3,6 @@ Luca Bisognin - 21/11/2024
 Classe Frigorifero per gestire le azioni utente nel frigorifero virtuale
 */
 
-
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
