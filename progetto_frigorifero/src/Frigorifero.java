@@ -21,8 +21,8 @@ public class Frigorifero {
     // costruttore
     Frigorifero() {
 
-        String splitBy=",", line, codice="", descrizione="",giornoScadenza="",
-                meseScadenza="", annoScadenza="", calorie="";
+        String splitBy=",", line, codice, descrizione, giornoScadenza,
+                meseScadenza, annoScadenza, calorie;
 
         // lettura prodotti da file e aggiunta all'arraylist
         try {
