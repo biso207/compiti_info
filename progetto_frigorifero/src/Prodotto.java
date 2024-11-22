@@ -42,4 +42,10 @@ public class Prodotto {
     public int getCalorie() {
         return calorie;
     }
+
+    public String toString() {
+        return (" Codice: " + codice + "\n Descrizione: " + descrizione + "\n" +
+                " Data Scadenza (m/g/a): " + meseScadenza + "/" + giornoScadenza + "/" + annoScadenza + "\n" +
+                " Calorie: " + calorie + " Kj\n");
+    }
 }

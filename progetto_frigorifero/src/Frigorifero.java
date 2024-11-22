@@ -280,9 +280,7 @@ public class Frigorifero {
 
             // stampa con for-each dei prodotti
             for (Prodotto p : listaProdotti) {
-                System.out.println("\nProdotto " + index + "\n Codice: " + p.getCodice() + "\n Descrizione: " + p.getDescrizione() + "\n" +
-                        " Data Scadenza (m/g/a): " + p.getMeseScadenza() + "/" + p.getGiornoScadenza() + "/" + p.getAnnoScadenza() + "\n" +
-                        " Calorie: " + p.getCalorie() + " Kj");
+                System.out.println("Prodotto [" + index + "]\n" + p);
                 index++;
             }
         }
@@ -302,9 +300,7 @@ public class Frigorifero {
             for (Prodotto p : listaProdotti) {
                 boolean isScaduto = calcoloData(p.getGiornoScadenza(), p.getMeseScadenza(), p.getAnnoScadenza());
                 if (isScaduto) {
-                    System.out.println("\nProdotto " + index + "\n Codice: " + p.getCodice() + "\n Descrizione: " + p.getDescrizione() + "\n" +
-                            " Data Scadenza (m/g/a): " + p.getMeseScadenza() + "/" + p.getGiornoScadenza() + "/" + p.getAnnoScadenza() + "\n" +
-                            " Calorie: " + p.getCalorie() + " Kj");
+                    System.out.println("Prodotto [" + index + "]\n" + p);
                     index++;
                     contScaduti++;
                 }
