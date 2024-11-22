@@ -3,9 +3,7 @@ Luca Bisognin - 21/11/2024
 Classe Frigorifero per gestire le azioni utente nel frigorifero virtuale
 */
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -23,58 +21,22 @@ public class Frigorifero {
     // costruttore
     Frigorifero() {
 
-        // AGGIUNTA BARCHE ESISTENTI ALL'ARRAYLIST
-        // creazione FileReader
-        FileReader readCodice = null;
-        FileReader readDescrizione = null;
-        FileReader readGScad = null;
-        FileReader readMScad = null;
-        FileReader readAScad = null;
-        FileReader readCalorie = null;
-        // dichiarazione scanner per lettura
-        Scanner scanCodice;
-        Scanner scanDescrizione;
-        Scanner scanGScad;
-        Scanner scanMScad;
-        Scanner scanAScad;
-        Scanner scanCalorie;
+        String splitBy=",", line, codice="", descrizione="",giornoScadenza="",
+                meseScadenza="", annoScadenza="", calorie="";
 
         // lettura prodotti da file e aggiunta all'arraylist
         try {
-            readCodice = new FileReader("data/codici.txt");
-            readDescrizione = new FileReader("data/descrizioni.txt");
-            readGScad = new FileReader("data/giorni_scadenza.txt");
-            readMScad = new FileReader("data/mesi_scadenza.txt");
-            readAScad = new FileReader("data/anni_scadenza.txt");
-            readCalorie = new FileReader("data/calorie.txt");
+            BufferedReader br = new BufferedReader(new FileReader("data/info_prodotti.csv"));
+            while ((line = br.readLine()) != null) {
+                String[] lettura = line.split(splitBy);
+                codice = lettura[0];
+                descrizione = lettura[1];
+                giornoScadenza = lettura[2];
+                meseScadenza = lettura[3];
+                annoScadenza = lettura[4];
+                calorie = lettura[5];
 
-            // assegnazione dei file agli scanner
-            scanCodice = new Scanner(readCodice);
-            scanDescrizione = new Scanner(readDescrizione);
-            scanGScad = new Scanner(readGScad);
-            scanMScad = new Scanner(readMScad);
-            scanAScad = new Scanner(readAScad);
-            scanCalorie = new Scanner(readCalorie);
-
-            // lettura attributi e aggiunta all'arraylist
-            while (scanCodice.hasNextLine() && scanDescrizione.hasNextLine() && scanGScad.hasNextLine()
-                    && scanMScad.hasNextLine() && scanAScad.hasNextLine() && scanCalorie.hasNextLine()) {
-
-                // lettura singola riga da ogni scanner con trim()
-                String codice = scanCodice.nextLine().trim();
-                String descrizione = scanDescrizione.nextLine().trim();
-                String giornoScadenza = scanGScad.nextLine().trim();
-                String meseScadenza = scanMScad.nextLine().trim();
-                String annoScadenza = scanAScad.nextLine().trim();
-                String calorie = scanCalorie.nextLine().trim();
-
-                // controllo righe vuote
-                if (codice.isEmpty() || descrizione.isEmpty() || giornoScadenza.isEmpty() || meseScadenza.isEmpty()
-                        || annoScadenza.isEmpty() || calorie.isEmpty()) {
-                    continue; // salto al ciclo successivo
-                }
-
-                // conversione variabili da string a integer
+                // conversioni string in int
                 int g = Integer.parseInt(giornoScadenza);
                 int m = Integer.parseInt(meseScadenza);
                 int a = Integer.parseInt(annoScadenza);
@@ -95,18 +57,6 @@ public class Frigorifero {
         catch (IOException e) {
             System.out.println("Errore durante la scrittura dei file: " + e.getMessage());
             e.printStackTrace();
-        } finally {
-            // chiusura reader
-            try {
-                if (readCodice != null) readCodice.close();
-                if (readDescrizione != null) readDescrizione.close();
-                if (readGScad != null) readGScad.close();
-                if (readMScad != null) readMScad.close();
-                if (readAScad != null) readAScad.close();
-                if (readCalorie != null) readCalorie.close();
-            } catch (IOException e) {
-                System.out.println("Errore durante la chiusura dei file: " + e.getMessage());
-            }
         }
     }
 
@@ -263,9 +213,9 @@ public class Frigorifero {
             int pos = mapCodici.get(codice);
             // rimozione prodotto
             listaProdotti.remove(pos);
-        }
 
-        System.out.println("Prodotto rimosso con successo!");
+            System.out.println("Prodotto rimosso con successo!");
+        }
     }
 
     // metodo 3 - stampa prodotti
@@ -361,48 +311,16 @@ public class Frigorifero {
 
     // metodo 6 - salvataggio stato frigorifero
     public void save() {
-        FileWriter writeCodice = null;
-        FileWriter writeDescrizione = null;
-        FileWriter writeG = null;
-        FileWriter writeM = null;
-        FileWriter writeA = null;
-        FileWriter writeCalorie = null;
-
-            // salvataggio attributi barche nel porto
         try {
-            writeCodice = new FileWriter("data/codici.txt");
-            writeDescrizione = new FileWriter("data/descrizioni.txt");
-            writeG = new FileWriter("data/giorni_scadenza.txt");
-            writeM = new FileWriter("data/mesi_scadenza.txt");
-            writeA = new FileWriter("data/anni_scadenza.txt");
-            writeCalorie = new FileWriter("data/calorie.txt");
-
-            for (Prodotto p: listaProdotti) {
-                if (p!=null) {
-                    writeCodice.write(p.getCodice() + "\n"); // codice
-                    writeDescrizione.write(p.getDescrizione() + "\n"); // descrizione
-                    writeG.write(p.getGiornoScadenza() + "\n"); // giorno scadenza
-                    writeM.write(p.getMeseScadenza() + "\n"); // mese scadenza
-                    writeA.write(p.getAnnoScadenza() + "\n"); // anno scadenza
-                    writeCalorie.write(p.getCalorie() + "\n"); // calorie
-                }
+            FileWriter fw = new FileWriter("data/info_prodotti.csv");
+            for (Prodotto p : listaProdotti) {
+               fw.write(p.getCodice() + "," + p.getDescrizione() + ","
+               + p.getGiornoScadenza() + "," + p.getMeseScadenza() + "," + p.getAnnoScadenza() + "," + p.getCalorie());
             }
         }
         catch (IOException e) {
             System.out.println("Errore durante la scrittura dei file: " + e.getMessage());
             e.printStackTrace();
-        } finally {
-            // chiusura writer
-            try {
-                if (writeCodice != null) writeCodice.close();
-                if (writeDescrizione != null) writeDescrizione.close();
-                if (writeG != null) writeG.close();
-                if (writeM != null) writeM.close();
-                if (writeA != null) writeA.close();
-                if (writeCalorie != null) writeCalorie.close();
-            } catch (IOException e) {
-                System.out.println("Errore durante la chiusura dei file: " + e.getMessage());
-            }
         }
 
         System.out.println("\nSalvataggio completato.");
