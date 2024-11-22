@@ -122,56 +122,8 @@ public class Porto {
 
     // metodo 1 - aggiunta barca al porto
     public void addShip(Scanner scanner) {
-        // input nome barca
-        scanner.nextLine(); // pulizia buffer
-        System.out.print("Nome barca: ");
-        String nome = scanner.nextLine();
-
-        // input nazione barca
-        System.out.print("Nazione barca: ");
-        String nazione = scanner.nextLine();
-
-        // input lunghezza barca
-        System.out.print("Lunghezza barca (metri): ");
-        int lunghezza = scanner.nextInt();
-
-        // input stazza barca
-        System.out.print("Stazza barca (t): ");
-        int stazza = scanner.nextInt();
-
-        // selezione tipologia barca
-        System.out.print("""
-                Tipologia barca
-                [1] VELA
-                [2] MOTORE""");
-        System.out.print("\nTipo: ");
-
-        String tipo="vela"; // tipologia di default
-
-        // controllo input
-        try {
-            int t = scanner.nextInt();
-            // condizione di selezione
-            if (t == 1) tipo="vela";
-            else tipo="motore";
-
-            while (t>2 || t<1) {
-                System.out.println("\nTipologia selezionata non valida. Riprova");
-                System.out.print("""
-                    Tipologia barca
-                    [1] VELA
-                    [2] MOTORE""");
-                System.out.print("\nTipo: ");
-                t = scanner.nextInt();
-
-            }
-
-        } catch (InputMismatchException e) {
-            System.out.println("Input invalido.");
-        }
-
         // creazione oggetto barca e aggiunta all'arraylist
-        Barca b = new Barca(nome, nazione, tipo, lunghezza, stazza);
+        Barca b = Barca.createBarca(scanner);
 
         // somma posti occupati
         sommaPosti = posti1+posti2+posti3;
@@ -179,12 +131,12 @@ public class Porto {
 
             // AGGIUNTA BARCA ALL'ARRAYLIST IN BASE ALLE CONDIZIONI DEL PORTO
             // aggiunta nei posti 0-19 delle barche di lunghezza 10 metri
-            if (lunghezza <=10 && posti1 < 20) {
+            if (b.getLunghezza() <=10 && posti1 < 20) {
                 listaBarche.set(posti1, b); // set dell'oggetto a posti1
                 posti1++;
             }
             // aggiunta barche nei posti 50-99
-            else if (tipo.equals("vela") && (posti3+50)<100) {
+            else if (b.getTipologia().equals("vela") && (posti3+50)<100) {
                 listaBarche.set((posti3+50), b); // set oggetto a posti3
                 posti3++;
             }
