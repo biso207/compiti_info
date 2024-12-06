@@ -24,6 +24,24 @@ public class Lista<T> {
         head = new Nodo<>(newValue);
     }
 
+// metodo per aggiungere un elemento in coda alla lista
+    public void addTail(T newValue) {
+        Nodo<T> nuovoNodo = new Nodo<>(newValue);
+
+        // lista è vuota, il nuovo nodo diventa la testa
+        if (head == null) {
+            head = nuovoNodo;
+        } else {
+            // scorre fino alla fine e aggiungi il nuovo nodo
+            Nodo<T> p = head;
+            while (p.getNext() != null) {
+                p = p.getNext();
+            }
+            p.setNext(nuovoNodo);
+        }
+    }
+
+
     // metodo toString
     public String toString() {
         StringBuilder r = new StringBuilder("La lista contiene: ");
