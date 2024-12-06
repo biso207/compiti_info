@@ -23,10 +23,21 @@ public class Main {
 
         // lista 2
         Lista<String> elenco2 = new Lista<>();
+        // aggiunta in testa
         elenco2.addHead(new Nodo<>("Forza Bologna"));
         elenco2.addHead(new Nodo<> ("Ciaone"));
         elenco2.addHead("Brute Force");
-        System.out.println(elenco2);
+
+        // aggiunta in coda
+        elenco2.addTail("Butt");
+        elenco2.addTail("Coda");
+        elenco2.addTail("Fine");
+        System.out.println("\nCoda prima delle rimozioni\n" + elenco2);
+
+        // rimozione nodo
+        elenco2.remove("Brute Force");
+        elenco2.remove("Coda");
+        System.out.println("\nLista dopo le rimozioni\n" + elenco2);
 
     }
 }

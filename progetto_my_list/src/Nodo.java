@@ -35,6 +35,6 @@ public class Nodo<T> {
     }
 
     public String toString(){
-        return v.toString();
+        return "\n" + v.toString();
     }
 }
