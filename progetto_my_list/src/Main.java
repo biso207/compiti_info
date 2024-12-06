@@ -38,6 +38,8 @@ public class Main {
         elenco2.remove("Brute Force");
         elenco2.remove("Coda");
         System.out.println("\nLista dopo le rimozioni\n" + elenco2);
+        elenco2.lastFirst();
+        System.out.println("\nLista dopo il cambio elementi\n" + elenco2);
 
     }
 }

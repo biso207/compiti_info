@@ -75,6 +75,31 @@ public class Lista<T> {
         }
     }
 
+    // metodo per spostare il primo elemento in coda e viceversa
+    public void lastFirst() {
+        if (head == null) {
+            throw new NoSuchElementException();
+        }
+
+        Nodo<T> p = head;
+        Nodo<T> pLast=p;
+
+        pLast.setV(p.getV());
+        T pSave = head.getV();
+
+        // nessun elemento presente
+        while (p.getNext() != null) {
+            pLast.setV(p.getNext().getV());
+            p = p.getNext();
+        }
+
+        pSave = pLast.getV();
+
+        // spostamento primo elemento in coda e viceversa
+        pLast.setV(head.getV());
+        head.setV(pSave);
+    }
+
     // metodo toString
     public String toString() {
         StringBuilder r = new StringBuilder("La lista contiene: ");
