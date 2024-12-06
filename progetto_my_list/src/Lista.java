@@ -85,7 +85,7 @@ public class Lista<T> {
         Nodo<T> pLast=p;
 
         pLast.setV(p.getV());
-        T pSave = head.getV();
+        T pSave;
 
         // nessun elemento presente
         while (p.getNext() != null) {
