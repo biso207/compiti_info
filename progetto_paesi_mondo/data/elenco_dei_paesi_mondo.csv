@@ -1,0 +1,250 @@
+Rango;Country;Continente;Stima;Data
+1;Cina;Asia;1.454.670.934;31/03/2023
+2;India;Asia;1.418.071.492;31/03/2023
+3;Stati Uniti;America;336.390.315;31/03/2023
+4;Indonesia;Asia-Oceania;281.654.964;31/03/2023
+5;Pakistan;Asia;233.243.729;31/03/2023
+6;Nigeria;Africa;221.072.668;31/03/2023
+7;Brasile;America;216.767.915;31/03/2023
+8;Bangladesh;Asia;169.294.548;31/03/2023
+9;Russia;Europa-Asia;146.105.680;31/03/2023
+10;Messico;America;132.740.378;31/03/2023
+11;Giappone;Asia;125.426.785;31/03/2023
+12;Etiopia;Africa;120.788.173;10/06/2022
+13;Filippine;Asia;112.486.101;10/06/2022
+14;Egitto;Africa-Asia;106.228.202;10/06/2022
+15;Vietnam;Asia;99.622.073;26/12/2022
+16;RD del Congo;Africa;95.205.878;10/06/2022
+17;Turchia;Europa-Asia;86.136.138;10/06/2022
+18;Iran;Asia;86.131.847;10/06/2022
+19;Germania;Europa;84.305.448;10/06/2022
+20;Thailandia;Asia;70.140.396;10/06/2022
+21;Regno Unito;Europa;68.583.427;10/06/2022
+22;Francia;Europa;65.554.051;10/06/2022
+23;Tanzania;Africa;63.245.243;10/06/2022
+24;Sudafrica;Africa;60.795.769;10/06/2022
+25;Italia;Europa;60.210.211;10/05/2023
+26;Kenya;Africa;56.178.526;10/06/2022
+27;Birmania;Asia;55.125.507;10/06/2022
+28;Colombia;America;51.956.665;10/06/2022
+29;Corea del Sud;Asia;51.354.626;10/06/2022
+30;Uganda;Africa;48.744.182;10/06/2022
+31;Spagna;Europa;46.789.810;10/06/2022
+32;Argentina;America;46.076.915;03/08/2022
+33;Sudan;Africa;45.936.533;10/06/2022
+34;Algeria;Africa;45.445.640;10/06/2022
+35;Ucraina;Europa;43.073.720;31/12/2022
+36;Iraq;Asia;42.058.736;10/06/2022
+37;Afghanistan;Asia;40.712.303;10/06/2022
+38;Canada;America;38.394.354;10/06/2022
+39;Marocco;Africa;37.799.089;10/06/2022
+40;Polonia;Europa;37.767.697;10/06/2022
+41;Arabia Saudita;Asia;35.899.478;10/06/2022
+42;Uzbekistan;Asia;34.438.040;10/06/2022
+43;Malaysia;Asia;33.191.122;10/06/2022
+44;Per?;America;32.625.948;lug-20
+45;Angola;Africa;31.127.674;giu-20
+46;Ghana;Africa;30.267.351;2021
+47;Mozambico;Africa;30.066.648;lug-20
+48;Nepal;Asia;29.996.478;lug-20
+49;Yemen;Asia;29.825.968;lug-20
+50;Venezuela;America;28.435.943;lug-20
+51;Costa d'Avorio;Africa;26.453.542;lug-20
+52;Madagascar;Africa;26.251.309;lug-20
+53;Australia;Oceania;25.750.198;lug-21
+54;Corea del Nord;Asia;25.550.000;lug-20
+55;Camerun;Africa;24.348.251;lug-19
+56;Taiwan;Asia;23.566.471;ott-20
+57;Niger;Africa;23.196.002;lug-20
+58;Sri Lanka;Asia;21.803.000;lug-19
+59;Burkina Faso;Africa;21.510.181;lug-20
+60;Mali;Africa;20.250.833;lug-20
+61;Cile;America;20.158.310;giu-20
+62;Romania;Europa;19.917.984;gen-20
+63;Kazakistan;Europa-Asia;19.724.856;dic-20
+64;Malawi;Africa;18.449.828;lug-20
+65;Zambia;Africa;17.885.422;lug-20
+66;Ecuador;America;17.625.048;dic-20
+67;Country Bassi;Europa;17.538.181;dic-20
+68;Siria;Asia;17.500.657;lug-20
+69;Guatemala;America;16.858.333;lug-20
+70;Senegal;Africa;16.705.608;lug-20
+71;Ciad;Africa;16.244.513;lug-20
+72;Somalia;Africa;15.993.209;lug-20
+73;Zimbabwe;Africa;15.473.818;lug-20
+74;Cambogia;Asia;15.288.489;mar-19
+75;Sudan del Sud;Africa;13.249.924;lug-20
+76;Ruanda;Africa;12.663.116;lug-20
+77;Guinea;Africa;12.559.623;lug-20
+78;Burundi;Africa;12.309.600;lug-20
+79;Benin;Africa;12.114.193;lug-20
+80;Haiti;America;11.743.017;lug-20
+81;Tunisia;Africa;11.708.370;gen-20
+82;Bolivia;America;11.633.371;lug-20
+83;Belgio;Europa;11.550.039;ott-20
+84;Cuba;America;11.193.470;dic-19
+85;Giordania;Asia;10.829.672;dic-20
+86;Grecia;Europa;10.724.599;gen-19
+87;Rep. Ceca;Europa;10.699.142;giu-20
+88;Rep. Dominicana;America;10.448.499;lug-20
+89;Svezia;Europa;10.373.225;set-20
+90;Portogallo;Europa;10.295.909;dic-19
+91;Azerbaigian;Asia - Europa;10.095.900;lug-20
+92;Ungheria;Europa;9.769.526;gen-20
+93;Bielorussia;Europa;9.408.400;gen-20
+94;Emirati Arabi Uniti;Asia;9.366.829;lug-18
+95;Tagikistan;Asia;9.313.800;gen-20
+96;Honduras;America;9.304.380;lug-20
+97;Israele;Asia;9.190.200;dic-20
+98;Austria;Europa;8.935.112;ott-20
+99;Papua Nuova Guinea;Oceania;8.935.000;lug-20
+100;Svizzera;Europa;8.632.703;giu-20
+101;Sierra Leone;Africa;8.100.318;lug-20
+102;Togo;Africa;7.706.000;lug-20
+103;Hong Kong;Asia;7.609.200;giu-20
+104;Paraguay;America;7.252.672;lug-20
+105;Laos;Asia;7.231.210;lug-20
+106;Bulgaria;Europa;6.951.482;dic-19
+107;Serbia;Europa;6.926.705;gen-20
+108;Libia;Africa;6.871.287;lug-20
+109;Libano;Asia;6.825.442;lug-20
+110;El Salvador;America;6.819.956;lug-20
+111;Kirghizistan;Asia;6.608.500;ott-20
+112;Nicaragua;America;6.527.691;giu-19
+113;Turkmenistan;Asia;6.431.187;lug-20
+114;Danimarca;Europa;5.837.213;ott-20
+115;Singapore;Asia;5.685.807;giu-20
+116;Rep. Centrafricana;Africa;5.633.412;lug-20
+117;Rep. del Congo;Africa;5.518.092;lug-20
+118;Finlandia;Europa;5.504.522;ott-20
+119;Slovacchia;Europa;5.460.136;giu-20
+120;Norvegia;Europa;5.384.576;set-20
+121;Costa Rica;America;5.111.238;giu-20
+122;Palestina;Asia;5.101.152;lug-20
+123;Nuova Zelanda;Oceania;5.106.922;dic-20
+124;Irlanda;Europa;4.977.400;apr-20
+125;Liberia;Africa;4.568.298;lug-20
+126;Kuwait;Asia;4.464.521;gen-20
+127;Oman;Asia;4.445.262;set-20
+128;Panama;America;4.278.500;lug-20
+129;Mauritania;Africa;4.173.077;lug-20
+130;Croazia;Europa;4.058.165;dic-19
+131;Georgia;Asia o Europa-Asia;3.716.858;gen-20
+132;Eritrea;Africa;3.546.000;lug-20
+133;Uruguay;America;3.530.912;gen-20
+134;Mongolia;Asia;3.451.402;dic-20
+135;Bosnia ed Erzegovina;Europa;3.332.593;lug-19
+136;Porto Rico (Stati Uniti);America;3.193.694;lug-19
+137;Armenia;Asia;2.967.900;set-20
+138;Albania;Europa;2.845.955;gen-20
+139;Lituania;Europa;2.794.870;nov-20
+140;Giamaica;America;2.734.093;dic-19
+141;Qatar;Asia;2.717.360;ott-20
+142;Moldavia;Europa;2.640.438;gen-20
+143;Namibia;Africa;2.504.498;lug-20
+144;Botswana;Africa;2.374.698;lug-20
+145;Gambia;Africa;2.335.504;lug-18
+146;Gabon;Africa;2.176.766;lug-20
+147;Slovenia;Europa;2.111.461;feb-21
+148;Macedonia del Nord;Europa;2.076.255;dic-19
+149;Lesotho;Africa;2.007.201;apr-16
+150;Lettonia;Europa;1.897.100;ott-20
+151;Kosovo;Europa;1.782.115;dic-19
+152;Guinea-Bissau;Africa;1.624.945;lug-20
+153;Bahrein;Asia;1.503.091;lug-18
+154;Guinea Equatoriale;Africa;1.454.789;lug-20
+155;Trinidad e Tobago;America;1.366.725;giu-20
+156;Estonia;Europa;1.328.976;gen-20
+157;Timor Est;Asia;1.299.412;lug-20
+158;Mauritius;Africa;1.266.000;lug-20
+159;eSwatini;Africa;1.093.238;mar-17
+160;Gibuti;Africa;976.107;lug-18
+161;Figi;Oceania;889.327;lug-19
+162;Cipro;Europa-Asia;888.000;dic-19
+163;Comore;Africa;758.316;dic-17
+164;Bhutan;Asia;748.931;lug-20
+165;La Riunione (Francia);Africa;859.959;gen-20
+166;Guyana;America;744.962;2018
+167;Isole Salomone;Oceania;721.455;2019
+168;Macao (Cina);Asia;682.800;2020
+169;Lussemburgo;Europa;656.108;2020
+170;Montenegro;Europa;621.873;2020
+171;Sahara Occidentale;Africa;597.000;2020
+172;Suriname;America;590.100;2018
+173;Capo Verde;Africa;556.857;2020
+174;Malta;Europa;514.564;2019
+175;Transnistria;Europa;469.000;2018
+176;Brunei;Asia;459.500;2019
+177;Belize;America;419.199;2020
+178;Bahamas;America;389.000;2020
+179;Maldive;Asia;383.135;2019
+180;Guadalupa (Francia);America;390 253;2017
+181;Islanda;Europa;368.010;2020
+182;Cipro del nord;Asia;351.965;2017
+183;Martinica (Francia);America;372 594;2017
+184;Vanuatu;Oceania;300.019;2020
+185;Barbados;America;287.025;2020
+186;Polinesia francese;Oceania;278.400;2019
+187;Nuova Caledonia (Francia);Oceania;271.407;2019
+188;Abcasia;Asia;245.424;2020
+189;Guyana francese;America;290.691;2020
+190;S?o Tom? e Pr?ncipe;Africa;210.240;2020
+191;Mayotte (Francia);Africa;279.471;2020
+192;Samoa;Oceania;202.506;2020
+193;Saint Lucia;America;178.696;2018
+194;Guam (Stati Uniti);Oceania;172.400;2018
+195;Cura?ao (Country Bassi);America;156.223;2020
+196;Repubblica dell'Artsakh;Asia;148.800;2020
+197;Kiribati;Oceania;119.940;2020
+198;Grenada;America;112.519;2020
+199;Aruba (Country Bassi);America;112.269;2020
+200;Saint Vincent e Grenadine;America;110.696;2020
+201;Jersey (Regno Unito);Europa;107.800;2019
+202;Micronesia;Oceania;104.650;2020
+203;Isole Vergini Americane (Stati Uniti);America;104.578;2020
+204;Tonga;Oceania;100.651;2016
+205;Seychelles;Africa;98.462;2020
+206;Antigua e Barbuda;America;97.895;2020
+207;Isola di Man (Regno Unito);Europa;83.314;2016
+208;Andorra;Europa;81.543;2019
+209;Dominica;America;71.808;2020
+210;Isole Cayman (Regno Unito);America;69.914;2019
+211;Bermuda (Regno Unito);America;64.054;2020
+212;Guernsey (Regno Unito);Europa;63.021;2019
+213;Samoa Americane (Stati Uniti);Oceania;56.700;2018
+214;Groenlandia (Danimarca);America;56.367;2020
+215;Isole Marianne Settentrionali (Stati Uniti);Oceania;56.200;2018
+216;Isole Marshall;Oceania;55.500;2018
+217;Ossezia del Sud;Asia;53.532;2015
+218;Saint Kitts e Nevis;America;52.823;2020
+219;F?r ?er (Danimarca);Europa;52.756;2020
+220;Turks e Caicos (Regno Unito);America;42.953;2019
+221;Sint Maarten (Country Bassi);America;40.614;2018
+222;Liechtenstein;Europa;39.749;2019
+223;Monaco;Europa;38.100;2019
+224;Saint Martin (Francia);America;35.334;2017
+225;Gibilterra (Regno Unito);Europa;34.691;2020
+226;San Marino;Europa;33.640;2020
+227;Isole ?land (Finlandia);Europa;33.056;2020
+228;Isole Vergini Britanniche (Regno Unito);America;30.030;2020
+229;Isole BES (Bonaire. Sint Eustatius e Saba);America;25.987;2020
+230;Palau;Oceania;17.900;2018
+231;Isole Cook (Nuova Zelanda);Oceania;15.200;2018
+232;Anguilla (Regno Unito);America;14.869;2020
+233;Wallis e Futuna (Francia);Oceania;11.558;2018
+234;Nauru;Oceania;11.000;2018
+235;Tuvalu;Oceania;10.507;2017
+236;Saint-Barth?lemy (Francia);America;9.961;2017
+237;Saint-Pierre e Miquelon (Francia);America;5.997;2017
+238;Sant'Elena, Ascensione e Tristan da Cunha (Regno Unito);Africa;5.833;2016
+239;Montserrat (Regno Unito);America;4.989;2020
+240;Isole Falkland (Regno Unito);America;3.198;2016
+241;Isola di Natale (Australia);Asia;1.955;2019
+242;Niue (Nuova Zelanda);Oceania;1.784;2017
+243;Isola Norfolk (Australia);Oceania;1.735;2019
+244;Tokelau (Nuova Zelanda);Oceania;1.499;2016
+245;Citt? del Vaticano;Europa;618;2019
+246;Isole Cocos (Keeling) (Australia);Asia;557;2019
+247;Isole Pitcairn (Regno Unito);Oceania;40;2021
+
+https://www.downloadexcelfiles.com/;;;;
