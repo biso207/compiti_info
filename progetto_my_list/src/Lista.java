@@ -10,8 +10,13 @@ public class Lista<T> {
     Nodo<T> head;
 
     // costruttore
-    public Lista() {
-        head = null;
+    public Lista(T[] v) {
+        head = null; // init lista vuota
+
+        // aggiunta elemento vettore nella lista
+        for (int i = v.length - 1; i >= 0; i--) {
+            addTail(v[i]);
+        }
     }
 
     // metodo per aggiungere elementi prima in testa alla lista
@@ -48,56 +53,49 @@ public class Lista<T> {
         addTail(nuovo);
     }
 
-    // metodo per rimuovere un nodo
+    // metodo per rimuovere occorrenze dalla lista
     public void remove(T element) {
+        // lista vuota
         if (head == null) {
-            throw new NoSuchElementException();
-        }
-
-        // rimozione valore in testa
-        Nodo<T> p = head;
-        if (head.getV() == element) {
-            head = head.getNext();
             return;
         }
 
-        // rimozione altro valore nella lista
-        Nodo<T> p2 = head.getNext();
-        while (p2!=null) {
-            if (p2.getV().equals(element)) {
-                p.setNext(p2.getNext());
-                return;
-            }
-            else {
-                p = p2;
-                p2 = p2.getNext();
+        // rimozione occorrenze in testa anche uguali
+        while (head.getV() == element) {
+            head = head.getNext();
+        }
+
+        // rimozione altre occorrenze
+        Nodo<T> p = head;
+        while (p != null && p.getNext() != null) {
+            if (p.getNext().getV().equals(element)) {
+                p.setNext(p.getNext().getNext()); // rimozione nodo successivo
+            } else {
+                p = p.getNext(); // nodo successivo
             }
         }
     }
 
     // metodo per spostare il primo elemento in coda e viceversa
     public void lastFirst() {
-        if (head == null) {
-            throw new NoSuchElementException();
+        // lista vuoto o con un solo elemento
+        if (head == null || head.getNext() == null) {
+            return;
         }
 
         Nodo<T> p = head;
-        Nodo<T> pLast=p;
 
-        pLast.setV(p.getV());
-        T pSave;
-
-        // nessun elemento presente
+        // ricerca ultimo nodo e il suo precedente
         while (p.getNext() != null) {
-            pLast.setV(p.getNext().getV());
             p = p.getNext();
         }
 
-        pSave = pLast.getV();
+        Nodo<T> last = p;
 
-        // spostamento primo elemento in coda e viceversa
-        pLast.setV(head.getV());
-        head.setV(pSave);
+        // spostamento valori del primo e dell'ultimo nodo
+        T temp = head.getV();
+        head.setV(last.getV());
+        last.setV(temp);
     }
 
     // metodo toString

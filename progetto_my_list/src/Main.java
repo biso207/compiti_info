@@ -5,41 +5,46 @@ Classe Main del progetto MyList
 
 public class Main {
     public static void main(String[] args) {
+        // vettore generico con Object
+        String[] v = {"E1", "E2", "E3"};
+
         // nodo 1
-        Nodo<String> nodoS;
-        nodoS = new Nodo<>("Luca");
+        Nodo<String> nodoS = new Nodo<>("Luca");
+
+        // nodo 2
+        nodoS.setNext(new Nodo<>("Biso"));
+
+        // stampa nodi creati
         System.out.println(nodoS);
 
-        // nodo 1
-        Nodo<String> nodoS2;
-        nodoS2 = new Nodo<>("Biso");
-        nodoS.setNext(nodoS2);
+        // lista 1 (String)
+        Lista<String> elenco = new Lista<>(v);
+        elenco.addHead("Biso"); // aggiunta elemento in testa
 
-        // lista 1
-        Lista<String> elenco = new Lista<>();
-        System.out.println(elenco);
-        elenco.addHead("Biso");
-        System.out.println(elenco);
-
-        // lista 2
-        Lista<String> elenco2 = new Lista<>();
-        // aggiunta in testa
+        // lista 2 (String)
+        Lista<String> elenco2 = new Lista<>(v);
+        System.out.println("\nLista 2\n" + elenco2);
+        // aggiunta nodi in testa
         elenco2.addHead(new Nodo<>("Forza Bologna"));
         elenco2.addHead(new Nodo<> ("Ciaone"));
+        elenco2.addHead(new Nodo<> ("Ciaone"));
+        elenco2.addHead(new Nodo<> ("Ciaone"));
         elenco2.addHead("Brute Force");
+        System.out.println("\nLista 2 dopo aggiunta nodi in 'head' => nodi aggiunti in testa\n" + elenco2);
 
-        // aggiunta in coda
+        // aggiunta nodi in coda alla lista 2
         elenco2.addTail("Butt");
         elenco2.addTail("Coda");
         elenco2.addTail("Fine");
-        System.out.println("\nCoda prima delle rimozioni\n" + elenco2);
+        System.out.println("\nLista 2 dopo aggiunta nodi in 'tail' => nodi aggiunti in coda\n" + elenco2);
 
-        // rimozione nodo
-        elenco2.remove("Brute Force");
+        // chimata metodi per rimuovere occorrenze dalla lista 2
+        elenco2.remove("Ciaone");
         elenco2.remove("Coda");
-        System.out.println("\nLista dopo le rimozioni\n" + elenco2);
-        elenco2.lastFirst();
-        System.out.println("\nLista dopo il cambio elementi\n" + elenco2);
+        System.out.println("\nLista dopo chiamata metodo 'remove' => occorrenze 'Ciaone' & 'Coda' rimosse\n" + elenco2);
 
+        // chiamata metodo per lo switch primo-ultimo elemento
+        elenco2.lastFirst();
+        System.out.println("\nLista dopo lo switch 'lastFirst' => primo e ultimo elemento scambiati\n" + elenco2);
     }
 }
