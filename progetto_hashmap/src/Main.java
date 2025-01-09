@@ -10,7 +10,32 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         // hashmap per le squadre
-        HashMap<String, Integer> classifica = new HashMap<String, Integer>();
+        HashMap<String, Integer> classifica = getStringIntegerHashMap();
+
+        // lettura punti squadra da input del nome della squadra
+        System.out.println("""
+                Digita il nome della squadra per conoscerne i punti
+                ! La prima lettera deve essere maiuscola !
+                0 per chiudere.
+                """);
+        Scanner s = new Scanner(System.in);
+        while (true) {
+            System.out.print("Nome squadra: ");
+            String n = s.nextLine();
+
+            // chiusura ciclo
+            if (n.equals("0")) break;
+
+            // squadra non presente
+            else if (!classifica.containsKey(n)) System.out.println("Squadra NON in Serie A!");
+
+            // stampa punti squadra scelta
+            else System.out.println(n + " - " + classifica.get(n) + " punti.");
+        }
+    }
+
+    private static HashMap<String, Integer> getStringIntegerHashMap() {
+        HashMap<String, Integer> classifica = new HashMap<>();
 
         try {
             FileReader file = new FileReader("data/serieA.csv"); // file con la classifica
@@ -34,15 +59,6 @@ public class Main {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-
-        System.out.println("Classifica Serie A");
-        // stampa squadre
-        for (String key : classifica.keySet()) {
-            System.out.println(key + " - " + classifica.get(key));
-        }
-        System.out.println("""
-                La classifica è aggiornata al 8/1/2025.
-                Non tutte le squadre hanno giocato lo stesso numero di partite.
-                """);
+        return classifica;
     }
 }
