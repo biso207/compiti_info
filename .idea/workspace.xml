@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/progetto_tracker_appinventor/segnaposti.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto_tracker_appinventor/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="added server x tracker AppInventor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,11 +90,24 @@
       <updated>1736794481438</updated>
       <workItem from="1736794487564" duration="30000" />
       <workItem from="1736876260120" duration="2492000" />
-      <workItem from="1744737433938" duration="4543000" />
+      <workItem from="1744737433938" duration="4884000" />
     </task>
+    <task id="LOCAL-00001" summary="added server x tracker AppInventor">
+      <option name="closed" value="true" />
+      <created>1744743737419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744743737419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added server x tracker AppInventor" />
+    <option name="LAST_COMMIT_MESSAGE" value="added server x tracker AppInventor" />
   </component>
 </project>
