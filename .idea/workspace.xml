@@ -5,41 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/progetto_rubrica/data/cognomi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto_rubrica/data/nomi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto_rubrica/data/soprannomi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto_rubrica/progetto_rubrica.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto_rubrica/src/Contatto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto_rubrica/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progetto_rubrica/src/Rubrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiti_info.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiti_info.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/progetto_barche.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_barche/progetto_barche.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/progetto_bicicletta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_bicicletta/progetto_bicicletta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/progetto_calcolatrice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_calcolatrice/progetto_calcolatrice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/progetto_campionato.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_campionato/progetto_campionato.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/progetto_classe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_classe/progetto_classe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/progetto_ereditarieta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_ereditarieta/progetto_ereditarieta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/progetto_frequenza_parola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_frequenza_parola/progetto_frequenza_parola.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/progetto_frigorifero.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_frigorifero/progetto_frigorifero.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/progetto_garage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_garage/progetto_garage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_generics/progetto_generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_generics/progetto_generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_hashmap/progetto_hashmap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_hashmap/progetto_hashmap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_array/progetto_my_array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_my_array/progetto_my_array.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/progetto_my_list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_my_list/progetto_my_list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_paesi_mondo/progetto_paesi_mondo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_paesi_mondo/progetto_paesi_mondo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_sanremo/progetto_sanremo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/progetto_sanremo/progetto_sanremo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto_tracker_appinventor/segnaposti.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto_tracker_appinventor/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +41,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2raPzWCRNGgGJraOGaxrhOO0tm2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,11 +52,13 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.runner rubrica.executor": "Run",
+    "Node.js.server.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programmazione/Java",
+    "last_opened_file_path": "C:/Users/lucab/Documents/compiti_info",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,8 +80,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +94,7 @@
       <updated>1736794481438</updated>
       <workItem from="1736794487564" duration="30000" />
       <workItem from="1736876260120" duration="2492000" />
+      <workItem from="1744737433938" duration="4543000" />
     </task>
     <servers />
   </component>
