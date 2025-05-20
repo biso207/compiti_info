@@ -3,8 +3,13 @@ Luca Bisognin - 5/12/2024
 Classe Main del progetto MyList
 */
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
         // vettore generico con Object
         String[] v = {"E1", "E2", "E3"};
@@ -69,21 +74,11 @@ public class Main {
         lo.add("PSG");
         System.out.println(lo);
 
-        // lettura del file e aggiunta elementi alla lista ordinata
-        ListaOrdinata<String> orderedFile = new ListaOrdinata<>();
-        FileRead fr = new FileRead("file.txt");
-        Scanner sc = new Scanner(fr);
+        // lettura di un file di testo e salvataggio dei valori ordinati in un nuovo file
+        SortTextFile s = new SortTextFile("file.txt", "newFile.txt");
+        s.sort(); // lettura + ordinamento file
+        s.saveFile(); // salvataggio lista in un nuovo file
 
-        while (fr.hasNextLine()) {
-            ListaOrdinata.add(sc.nextLine());
-        }
-
-        for (String s : ListaOrdinata<String>) {
-            System.out.printl(s);
-        }
-
-        
-        // salvataggio della lista ordinata in un nuovo file
 
         // test MyIntArray
         /*
