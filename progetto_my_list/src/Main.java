@@ -69,7 +69,21 @@ public class Main {
         lo.add("PSG");
         System.out.println(lo);
 
+        // lettura del file e aggiunta elementi alla lista ordinata
+        ListaOrdinata<String> orderedFile = new ListaOrdinata<>();
+        FileRead fr = new FileRead("file.txt");
+        Scanner sc = new Scanner(fr);
+
+        while (fr.hasNextLine()) {
+            ListaOrdinata.add(sc.nextLine());
+        }
+
+        for (String s : ListaOrdinata<String>) {
+            System.out.printl(s);
+        }
+
         
+        // salvataggio della lista ordinata in un nuovo file
 
         // test MyIntArray
         /*
