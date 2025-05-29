@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "progetto_my_list/src",
+        "progetto_lista_bidirezionale/src",
+        "progetto_lista_bidirezionale"
+    ]
+}

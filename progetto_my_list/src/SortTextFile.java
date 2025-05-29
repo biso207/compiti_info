@@ -1,7 +1,6 @@
 // Luca Bisognin - 20/5/2025
 // classe per eseguire operazioni sul file di testo letto
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.BufferedWriter;
@@ -31,6 +30,8 @@ public class SortTextFile {
         while (sc.hasNextLine()) {
             orderedFile.add(sc.nextLine());
         }
+
+        sc.close();
     }
 
     // metodo per salvare i valori ordinata in un file
