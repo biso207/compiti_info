@@ -53,6 +53,8 @@ public class ListaBid<T> {
         return l;
     }
 
+    // todo: addTail & addInPos e i corrispondenti remove
+
     @Override
     public String toString() {
         String result = "Lista: ";
@@ -61,6 +63,6 @@ public class ListaBid<T> {
             result += " --> " + tmp;
             tmp = tmp.getSucc();      
         }
-        return result;
+        return result.trim();
     }
 }
