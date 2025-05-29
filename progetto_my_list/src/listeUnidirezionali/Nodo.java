@@ -1,14 +1,16 @@
-public class NodoBid<T> {
+package listeUnidirezionali;
+
+public class Nodo<T> {
 
     T valore;
     Nodo<T> succ;
 
-    public NodoBid() {
+    public Nodo() {
         valore = null;
         succ = null;
     }
 
-    public NodoBid( T v ) {
+    public Nodo( T v ) {
         super();
         valore = v;
     }

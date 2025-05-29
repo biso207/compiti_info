@@ -1,3 +1,4 @@
+package listeUnidirezionali;
 public class Lista<T> {
 
     protected Nodo<T> root;

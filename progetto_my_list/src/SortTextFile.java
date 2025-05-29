@@ -7,6 +7,8 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+import listeUnidirezionali.ListaOrdinata;
+
 public class SortTextFile {
     // percorso dei file
     private String path, newFilePath;

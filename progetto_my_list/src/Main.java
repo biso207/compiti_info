@@ -5,6 +5,9 @@ Classe Main del progetto MyList
 
 import java.io.IOException;
 
+import listeUnidirezionali.*;
+import listaBidirezionali.*;
+
 public class Main {
     public static void main(String[] args) throws IOException {
         /*

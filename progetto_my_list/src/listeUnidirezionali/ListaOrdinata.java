@@ -1,3 +1,4 @@
+package listeUnidirezionali;
 public class ListaOrdinata<T extends Comparable<T>> extends Lista<T> {
 
     // metodo per aggiungere un valore alla lista
