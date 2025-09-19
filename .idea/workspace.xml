@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="added server x tracker AppInventor" />
+    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="added server x tracker AppInventor">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto_comuni_italiani/data/comuni.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto_comuni_italiani/progetto_comuni_italiani.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto_comuni_italiani/src/ComuniItaliani.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,12 +55,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.runner comuni.executor": "Run",
     "Application.runner rubrica.executor": "Run",
     "Node.js.server.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lucab/Documents/compiti_info",
     "node.js.detected.package.eslint": "true",
@@ -60,14 +71,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucab\Documents\compiti_info\progetto_comuni_italiani\data" />
+      <recent name="C:\Users\lucab\Documents\compiti_info\progetto_comuni_italiani" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="runner rubrica" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="progetto_rubrica" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/progetto_rubrica" />
+    <configuration name="runner comuni" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ComuniItaliani" />
+      <module name="progetto_comuni_italiani" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/progetto_comuni_italiani" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,7 +94,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -90,7 +109,12 @@
       <updated>1736794481438</updated>
       <workItem from="1736794487564" duration="30000" />
       <workItem from="1736876260120" duration="2492000" />
-      <workItem from="1744737433938" duration="4884000" />
+      <workItem from="1744737433938" duration="5409000" />
+      <workItem from="1746166725358" duration="405000" />
+      <workItem from="1746167247331" duration="10000" />
+      <workItem from="1746167267744" duration="53000" />
+      <workItem from="1746168019221" duration="16000" />
+      <workItem from="1758273812887" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="added server x tracker AppInventor">
       <option name="closed" value="true" />
@@ -100,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744743737419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added server x tracker AppInventor">
+      <option name="closed" value="true" />
+      <created>1744744283946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744744283946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
