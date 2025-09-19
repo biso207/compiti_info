@@ -67,7 +67,7 @@ public class ComuniItaliani {
             }
         }
 
-        if (!found) System.out.println(city + " non trovata!");
+        if (!found) System.out.println("città '" + city + "' non trovata!");
     }
 }
 
