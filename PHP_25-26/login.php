@@ -33,7 +33,7 @@
             // variabili
             $password = "abracadabra"; // password utente => recuperabile da server remoto
             $digited_psw = isset($_POST['password']) ? $_POST['password'] : ''; // password digitata
-            $username = $_POST['username'] ?? ''; // nickname digitato
+            $username = isset($_POST['username']) ? $_POST['username'] : ''; // nickname digitato
 
             // controllo correttezza password
             if ($digited_psw === $password) echo "<p style='color:green'>Ciao $username, sei dentro!</p>";

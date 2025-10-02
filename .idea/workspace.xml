@@ -4,167 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="lavoro 19/9/2025 in classe">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_24-25/progetto_comuni_italiani/data/Elenco-comuni-italiani.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_24-25/progetto_comuni_italiani/src/ComuniItaliani.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/.idea/php_projects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/Login2/lista_utenti.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/Login2/loginAvanzato.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="lavoro 2/10/2025 (classe)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es1_209/bin/es1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/es1_209/bin/es1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es1_209/es1_209.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/es1_209/es1_209.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es1_209/src/es1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/es1_209/src/es1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/progetto_comuni_italiani/ComuniItaliani.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/progetto_rubrica/Contatto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/progetto_rubrica/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/progetto_rubrica/Rubrica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/data/lunghezzaBarche.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/data/lunghezzaBarche.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/data/nazioneBarche.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/data/nazioneBarche.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/data/nomeBarche.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/data/nomeBarche.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/data/stazzaBarche.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/data/stazzaBarche.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/data/tipoBarche.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/data/tipoBarche.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/progetto_barche.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/progetto_barche.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/src/Barca.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/src/Barca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_barche/src/Porto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_barche/src/Porto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/out/progetto_bicicletta/Bicicletta.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/out/progetto_bicicletta/Bicicletta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/out/progetto_bicicletta/Motorino.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/out/progetto_bicicletta/Motorino.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/progetto_bicicletta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/progetto_bicicletta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/src/Bicicletta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/src/Bicicletta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_bicicletta/src/Motorino.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_bicicletta/src/Motorino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/.idea/progetto_calcolatrice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/.idea/progetto_calcolatrice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/out/progetto_calcolatrice/Calcolatrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/out/progetto_calcolatrice/Calcolatrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/out/progetto_calcolatrice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/out/progetto_calcolatrice/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/progetto_calcolatrice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/progetto_calcolatrice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/src/Calcolatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/src/Calcolatrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_calcolatrice/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_calcolatrice/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/data/LBA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/data/LBA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/data/bundesliga.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/data/bundesliga.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/data/serieA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/data/serieA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/out/serieA/Campionato.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/out/serieA/Campionato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/out/serieA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/out/serieA/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/out/serieA/Squadra.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/out/serieA/Squadra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/progetto_campionato.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/progetto_campionato.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/src/Campionato.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/src/Campionato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_campionato/src/Squadra.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_campionato/src/Squadra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/out/progetto_classe/Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_classe/out/progetto_classe/Classe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/out/progetto_classe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_classe/out/progetto_classe/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/out/progetto_classe/Studente.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_classe/out/progetto_classe/Studente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/progetto_classe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_classe/progetto_classe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/src/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_classe/src/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_classe/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_classe/src/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_classe/src/Studente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_comuni_italiani/data/comuni.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_comuni_italiani/data/comuni.CSV" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_comuni_italiani/progetto_comuni_italiani.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_comuni_italiani/progetto_comuni_italiani.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_comuni_italiani/src/ComuniItaliani.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/out/Bambino.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/out/Bambino.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/out/BambinoQuarta.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/out/BambinoQuarta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/out/BambinoSeconda.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/out/BambinoSeconda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/out/BambinoTerza.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/out/BambinoTerza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/out/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/out/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/progetto_ereditarieta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/progetto_ereditarieta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/src/Bambino.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/src/Bambino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/src/BambinoQuarta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/src/BambinoQuarta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/src/BambinoSeconda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/src/BambinoSeconda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/src/BambinoTerza.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/src/BambinoTerza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_ereditarieta/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_ereditarieta/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/data/commedia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/data/commedia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/frequenza_parole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/frequenza_parole.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/frequenza_parole_Bisognin.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/frequenza_parole_Bisognin.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/frequenza_parole_Bisognin.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/frequenza_parole_Bisognin.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/progetto_frequenza_parola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/progetto_frequenza_parola.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/progetto_frequenza_parole_Bisognin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/progetto_frequenza_parole_Bisognin.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/src/BookParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/src/BookParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frequenza_parola/src/BookReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frequenza_parola/src/BookReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/data/info_prodotti.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/data/info_prodotti.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/out/production/progetto_frigorifero/Frigorifero.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/out/production/progetto_frigorifero/Frigorifero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/out/production/progetto_frigorifero/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/out/production/progetto_frigorifero/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/out/production/progetto_frigorifero/Prodotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/out/production/progetto_frigorifero/Prodotto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/progetto_frigorifero.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/progetto_frigorifero.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/src/Frigorifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/src/Frigorifero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_frigorifero/src/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_frigorifero/src/Prodotto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/data/garage.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/data/garage.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/out/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/out/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/out/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/out/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/out/Moto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/out/Moto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/out/Veicolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/out/Veicolo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/progetto_garage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/progetto_garage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/src/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/src/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/src/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/src/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_garage/src/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_garage/src/Veicolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_generics/out/progetto_generics/Coppia.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_generics/out/progetto_generics/Coppia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_generics/out/progetto_generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_generics/out/progetto_generics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_generics/progetto_generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_generics/progetto_generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_generics/src/Coppia.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_generics/src/Coppia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_generics/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_generics/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/bin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/bin/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/bin/Rettangolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/bin/Rettangolo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/progetto_geometria.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/progetto_geometria.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_geometria/src/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_geometria/src/Rettangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_hashmap/data/serieA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_hashmap/data/serieA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_hashmap/out/production/progetto_hashmap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_hashmap/out/production/progetto_hashmap/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_hashmap/out/production/progetto_rubrica/Contatto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_hashmap/out/production/progetto_rubrica/Contatto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_hashmap/out/production/progetto_rubrica/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_hashmap/out/production/progetto_rubrica/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_hashmap/progetto_hashmap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_hashmap/progetto_hashmap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_hashmap/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_hashmap/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_java_tree/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_java_tree/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_java_tree/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_java_tree/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_java_tree/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_java_tree/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_array/out/progetto_my_array/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_array/out/progetto_my_array/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_array/out/progetto_my_array/MyArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_array/out/progetto_my_array/MyArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_array/progetto_my_array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_array/progetto_my_array.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_array/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_array/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_array/src/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_array/src/MyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/progetto_my_list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/progetto_my_list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/SortTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/SortTextFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/listaBidirezionali/ListaBid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/listaBidirezionali/ListaBid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/listaBidirezionali/NodoBid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/listaBidirezionali/NodoBid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/listeUnidirezionali/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/listeUnidirezionali/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/listeUnidirezionali/ListaOrdinata.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/listeUnidirezionali/ListaOrdinata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/listeUnidirezionali/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/listeUnidirezionali/Nodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_my_list/src/newFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_my_list/src/newFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_paesi_mondo/data/elenco_dei_paesi_mondo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_paesi_mondo/data/elenco_dei_paesi_mondo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_paesi_mondo/progetto_paesi_mondo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_paesi_mondo/progetto_paesi_mondo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_paesi_mondo/src/CountriesOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_paesi_mondo/src/CountriesOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_paesi_mondo/src/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_paesi_mondo/src/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_paesi_mondo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_paesi_mondo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_rubrica/data/cognomi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_rubrica/data/cognomi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_rubrica/data/nomi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_rubrica/data/nomi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_rubrica/data/soprannomi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_rubrica/data/soprannomi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_rubrica/progetto_rubrica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_rubrica/progetto_rubrica.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_rubrica/src/Contatto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_rubrica/src/Contatto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_rubrica/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_rubrica/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_rubrica/src/Rubrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_rubrica/src/Rubrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_sanremo/data/concorrenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_sanremo/data/concorrenti.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_sanremo/out/progetto_sanremo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_sanremo/out/progetto_sanremo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_sanremo/progetto_sanremo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_sanremo/progetto_sanremo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_sanremo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_sanremo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_tracker_appinventor/segnaposti.json" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_tracker_appinventor/segnaposti.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetto_tracker_appinventor/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Java_24-25/progetto_tracker_appinventor/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/Login2/lista_utenti.json" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Login2/lista_utenti.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/Login2/loginAvanzato.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Login2/loginAvanzato.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,6 +61,7 @@
     "Application.runner comuni.executor": "Run",
     "Application.runner rubrica.executor": "Run",
     "Node.js.server.js.executor": "Run",
+    "PHP Script.loginAvanzato.php.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -277,7 +122,7 @@
       <workItem from="1758874290860" duration="378000" />
       <workItem from="1758874910801" duration="29000" />
       <workItem from="1758874973378" duration="3599000" />
-      <workItem from="1759396982988" duration="1336000" />
+      <workItem from="1759396982988" duration="4659000" />
     </task>
     <task id="LOCAL-00001" summary="added server x tracker AppInventor">
       <option name="closed" value="true" />
@@ -303,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758275785989</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lavoro 2/10/2025 (classe)">
+      <option name="closed" value="true" />
+      <created>1759398882465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759398882465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added server x tracker AppInventor" />
     <MESSAGE value="lavoro 19/9/2025 in classe" />
-    <option name="LAST_COMMIT_MESSAGE" value="lavoro 19/9/2025 in classe" />
+    <MESSAGE value="lavoro 2/10/2025 (classe)" />
+    <option name="LAST_COMMIT_MESSAGE" value="lavoro 2/10/2025 (classe)" />
   </component>
 </project>

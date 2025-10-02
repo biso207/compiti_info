@@ -24,6 +24,10 @@
         </form>
 
         <?php
+            // permetta la visualizzazione degli errori
+            ini_set('display_errors', 1);
+            error_reporting(E_ALL);
+
             // recupera il contenuto del file json
             $json = file_get_contents('lista_utenti.json');
 
@@ -38,10 +42,28 @@
                 die('Error decoding the JSON file');
             }
 
-            echo "<pre>";
-            print_r($json_data); // stampa tutti i dati del json
-            echo "</pre>";
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
+                // recupera i dati utente
+                $username = $_POST['username'];
+                $password = $_POST['password'];
+                $flag = false; // flag per gli errori
+
+                // for-each per stampare tutti i dati del json
+                /*
+                users è un array associativo che contiene tutti gli utenti
+                nel file json la chiave è 'users' che contiene dentro i field 'username' e 'password'
+                */
+                foreach ($json_data['users'] as $key => $value) {
+                    if ($value['username'] == $username) {
+                        $flag=true;
+                        if ($value['password'] == $password) echo "<p style='color:green'>Ciao $username, sei dentro!</p>";
+                        else echo "<p style='color:red'>Password errata!</p>";
+                    }
+                }
+
+                if (!$flag) echo "<p style='color:red'>Username non trovato!</p>";
+            }
         ?>
 
     </body>
