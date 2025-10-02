@@ -1,0 +1,7 @@
+Per avviare il sistema usare macchina Linux Ubuntu come sistema WSL su Windows.
+
+1) Aprire Start --> cercare Ubuntu --> avviare
+2) Nel prompt che si apre digitare: cd /var/www/html
+3) Digitare: cd hello_PHP
+4) Digitare: sudo service apache2 start
+5) Inserire la password e il sistema parte
