@@ -5,15 +5,15 @@
         <meta name="generator" content="AlterVista - Editor HTML"/>
         <title>Base Form</title>
         <!--style sheet-->
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="../style.css">
         <!--icon-->
-        <link rel="icon" href="assets/favicons/page_icon.png" type="image/png">
+        <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
     </head>
     <body>
         <!-barra di navigazione-->
         <nav class="navbar">
             <ul>
-                <li><a class="backIndex" href="../../index.html">Home Esercizi</a></li>
+                <li><a class="backIndex" href="../../../index.html">Home Esercizi</a></li>
                 <li><a href="LoginAdvanced/login_advanced.php">Login Advanced</a></li>
             </ul>
         </nav>

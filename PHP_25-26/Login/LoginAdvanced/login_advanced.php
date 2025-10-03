@@ -7,15 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--style sheet-->
-        <link rel="stylesheet" href="../login.css">
+        <link rel="stylesheet" href="../../style.css">
         <!--icon-->
-        <link rel="icon" href="../assets/favicons/page_icon.png" type="image/png">
+        <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
     </head>
     <body>
         <!-barra di navigazione-->
         <nav class="navbar">
             <ul>
-                <li><a class="backIndex" href="../../index.html">Home Esercizi</a></li>
+                <li><a class="backIndex" href="../../../index.html">Home Esercizi</a></li>
                 <li><a href="../login.php">Login Base</a></li>
             </ul>
         </nav>

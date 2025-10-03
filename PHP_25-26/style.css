@@ -1,7 +1,7 @@
 /* snippet per i font */
 @font-face {
     font-family: "inter-regular";
-    src: url('assets/fonts/Inter-Regular.ttf') format("truetype");
+    src: url('Login/assets/fonts/Inter-Regular.ttf') format("truetype");
 }
 
 html, body {
