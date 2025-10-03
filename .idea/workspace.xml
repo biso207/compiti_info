@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="lavoro 2/10/2025 (classe)">
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/Login/assets/favicons/page_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/Login/assets/fonts/Inter-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/Login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/es32_B50/index.php" afterDir="false" />
+    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="compito 3/10/2025 es32 pag B50">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/Login2/lista_utenti.json" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Login/LoginAdvanced/lista_utenti.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/Login2/loginAvanzato.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Login/LoginAdvanced/login_advanced.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/es32_B50/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/es32_B50/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +133,7 @@
       <workItem from="1758874910801" duration="29000" />
       <workItem from="1758874973378" duration="3599000" />
       <workItem from="1759396982988" duration="11012000" />
-      <workItem from="1759508393342" duration="3837000" />
+      <workItem from="1759508393342" duration="4277000" />
     </task>
     <task id="LOCAL-00001" summary="added server x tracker AppInventor">
       <option name="closed" value="true" />
@@ -182,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759402238865</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="compito 3/10/2025 es32 pag B50">
+      <option name="closed" value="true" />
+      <created>1759512313598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759512313598</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +193,7 @@
     <MESSAGE value="added server x tracker AppInventor" />
     <MESSAGE value="lavoro 19/9/2025 in classe" />
     <MESSAGE value="lavoro 2/10/2025 (classe)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lavoro 2/10/2025 (classe)" />
+    <MESSAGE value="compito 3/10/2025 es32 pag B50" />
+    <option name="LAST_COMMIT_MESSAGE" value="compito 3/10/2025 es32 pag B50" />
   </component>
 </project>
