@@ -1,0 +1,51 @@
+/* snippet per i font */
+@font-face {
+    font-family: "inter-regular";
+    src: url('assets/fonts/Inter-Regular.ttf') format("truetype");
+}
+
+html, body {
+    background: #151A3B;
+    color: #fff;
+    font-family: inter-regular, sans-serif;
+    scroll-behavior: smooth; /* fluidità nello scroll della pagina */
+}
+
+input {
+    border-radius: 5px;
+    margin: 3px;
+}
+
+/* stile barra di navigazione in alto */
+.navbar {
+    font-family: 'inter-medium', Arial, sans-serif;
+    background-color: #2d2654;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0 50px;
+    justify-content: right;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #ffe066;
+}
+
+.navbar .backIndex:hover {
+    color: coral;
+}

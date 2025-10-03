@@ -3,17 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta name="generator" content="AlterVista - Editor HTML"/>
-        <title>Form Dati Utente</title>
-        <style>
-            input {
-                border-radius: 5px;
-                margin: 3px;
-            }
-        </style>
+        <title>Base Form</title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="login.css">
+        <!--icon-->
+        <link rel="icon" href="assets/favicons/page_icon.png" type="image/png">
     </head>
     <body>
-
-        <p>&nbsp;</p>
+        <!-barra di navigazione-->
+        <nav class="navbar">
+            <ul>
+                <li><a class="backIndex" href="../../index.html">Home Esercizi</a></li>
+                <li><a href="LoginAdvanced/login_advanced.php">Login Advanced</a></li>
+            </ul>
+        </nav>
 
         <h1>Login</h1>
         <form method="post">
