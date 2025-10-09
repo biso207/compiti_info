@@ -1,3 +1,5 @@
+<!-- todo: mostrare il contenuto del file json nella pagina -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,8 +17,7 @@
         <!-barra di navigazione-->
         <nav class="navbar">
             <ul>
-                <li><a class="backIndex" href="../../../index.html">Home Esercizi</a></li>
-                <li><a href="../login.php">Login Base</a></li>
+                <li><a class="backIndex" href="../../../index.html">Home Progetti</a></li>
             </ul>
         </nav>
 

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="compito 3/10/2025 es32 pag B50">
+    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="compito 3/10/2025">
+      <change afterPath="$PROJECT_DIR$/PHP_25-26/es9-10-2025/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_25-26/es9-10-2025/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_25-26/fileUpload/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_25-26/fileUpload/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP_25-26/Login/LoginAdvanced/login_advanced.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Login/LoginAdvanced/login_advanced.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/Login/assets/favicons/page_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/Login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/Login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Login/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP_25-26/es32_B50/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/es32_B50/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +26,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="PHP File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -138,7 +139,8 @@
       <workItem from="1758874973378" duration="3599000" />
       <workItem from="1759396982988" duration="11012000" />
       <workItem from="1759508393342" duration="4285000" />
-      <workItem from="1759512764339" duration="3850000" />
+      <workItem from="1759512764339" duration="3895000" />
+      <workItem from="1760001430357" duration="6112000" />
     </task>
     <task id="LOCAL-00001" summary="added server x tracker AppInventor">
       <option name="closed" value="true" />
@@ -196,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759512691012</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="compito 3/10/2025">
+      <option name="closed" value="true" />
+      <created>1759524939066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759524939066</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +217,7 @@
     <MESSAGE value="lavoro 19/9/2025 in classe" />
     <MESSAGE value="lavoro 2/10/2025 (classe)" />
     <MESSAGE value="compito 3/10/2025 es32 pag B50" />
-    <option name="LAST_COMMIT_MESSAGE" value="compito 3/10/2025 es32 pag B50" />
+    <MESSAGE value="compito 3/10/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="compito 3/10/2025" />
   </component>
 </project>
