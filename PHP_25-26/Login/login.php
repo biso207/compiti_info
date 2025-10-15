@@ -13,8 +13,7 @@
         <!-barra di navigazione-->
         <nav class="navbar">
             <ul>
-                <li><a class="backIndex" href="../../../index.html">Home Esercizi</a></li>
-                <li><a href="LoginAdvanced/login_advanced.php">Login Advanced</a></li>
+                <li><a class="backIndex" href="../../../Progetti_5CIN/index.html">Home Esercizi</a></li>
             </ul>
         </nav>
 

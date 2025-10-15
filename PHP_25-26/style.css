@@ -1,7 +1,11 @@
 /* snippet per i font */
 @font-face {
     font-family: "inter-regular";
-    src: url('Login/assets/fonts/Inter-Regular.ttf') format("truetype");
+    src: url('fonts/Inter-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: "inter-medium";
+    src: url('fonts/Inter-Medium.ttf') format("truetype");
 }
 
 html, body {
@@ -18,7 +22,7 @@ input {
 
 /* stile barra di navigazione in alto */
 .navbar {
-    font-family: 'inter-medium', Arial, sans-serif;
+    font-family: 'inter-medium', sans-serif;
     background-color: #2d2654;
     padding: 20px;
     width: 100%;
@@ -48,4 +52,17 @@ input {
 
 .navbar .backIndex:hover {
     color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+a::selection {
+    color: darkgray;
 }

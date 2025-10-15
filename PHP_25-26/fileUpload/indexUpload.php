@@ -1,17 +1,15 @@
-<!-- todo: inserire target=blank all'invio dei dati del from -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Es 32 - p. B50</title>
-
-        <!--style sheet-->
+        <title>File Uploader</title>
+        <!-- stylesheet -->
         <link rel="stylesheet" href="../style.css">
         <!--icon-->
         <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
     </head>
     <body>
+
         <!-barra di navigazione-->
         <nav class="navbar">
             <ul>
@@ -19,11 +17,15 @@
             </ul>
         </nav>
 
-        <h1>Text Analyzer</h1>
-        <form method="post" action="index.php">
-            <label for="parola">Testo</label><br>
-            <textarea id="parola" name="parola"></textarea><br>
+        <h1>File Uploader</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="fileToUpload[]" multiple><br>
             <input type="submit" value="Invia">
+            <input type="reset" value="Reset">
         </form>
+        <?php include 'upload.php'; ?>
+
+        <h3>Lista File Caricati</h3>
+        <?php include 'showUploaded.php'; ?>
     </body>
 </html>
