@@ -15,9 +15,21 @@ html, body {
     scroll-behavior: smooth; /* fluidità nello scroll della pagina */
 }
 
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
 input {
     border-radius: 5px;
     margin: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffe066;
+}
+input[type="reset"]:hover {
+    background-color: #ffe066;
 }
 
 /* stile barra di navigazione in alto */
