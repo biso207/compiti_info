@@ -1,5 +1,4 @@
 <?php
-
 // array associativo per i messaggi di errore e loro conteggio
 $error_counts = [];
 
