@@ -1,0 +1,19 @@
+:root {
+    --bg: #f6f7fb;
+}
+
+.bg-soft {
+    background: var(--bg);
+}
+
+.word-view {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.hangman-box {
+    background: white;
+    border-radius: 12px;
+    padding: 12px;
+}

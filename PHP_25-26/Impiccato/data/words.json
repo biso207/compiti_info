@@ -1,0 +1,22 @@
+{
+  "words": [
+    "computer","programma","algoritmo","database","internet","software","hardware","sviluppo","codice","funzione",
+    "variabile","costante","array","oggetto","classe","metodo","sistema","rete","server","client",
+    "sicurezza","password","utente","accesso","account","memoria","processore","monitor","tastiera","mouse",
+    "schermo","applicazione","mobile","android","windows","linux","browser","email","cloud","backup",
+    "protocollo","firewall","hosting","dominio","pagina","sito","web","script","query","tabella",
+    "colonna","record","indice","chiave","primaria","esterna","relazione","normalizzazione","backupdb","restore",
+    "gioco","impiccato","parola","lettera","tentativo","errore","vittoria","sconfitta","punteggio","classifica",
+    "tempo","livello","sfida","partita","turno","regola","logica","grafica","immagine","stato",
+    "caricamento","salvataggio","profilo","avatar","interfaccia","design","layout","colore","stile","tema",
+    "bootstrap","css","html","javascript","php","mysql","json","xml","api","framework",
+    "libreria","modulo","package","versione","commit","repository","github","branch","merge","debug",
+    "errorelog","console","terminale","shell","comando","parametro","argomento","input","output","risposta",
+    "connessione","sessione","cookie","token","autenticazione","autorizzazione","permesso","ruolo","admin","ospite",
+    "studente","scuola","universita","lezione","esame","progetto","tesina","verifica","professore","materia",
+    "informatica","matematica","fisica","chimica","storia","geografia","filosofia","letteratura","inglese","italiano",
+    "musica","arte","sport","calcio","basket","tennis","nuoto","corsa","allenamento","gara",
+    "viaggio","aereo","treno","hotel","vacanza","citta","paese","strada","piazza","parco",
+    "casa","stanza","porta","finestra","tavolo","sedia","letto","armadio","lampada","divano"
+  ]
+}
