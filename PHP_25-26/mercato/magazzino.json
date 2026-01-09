@@ -1,0 +1,364 @@
+{
+  "fruits": [
+    {
+      "name": "banana",
+      "color": "yellow",
+      "taste": "sweet",
+      "quantity": 59
+    },
+    {
+      "name": "apple",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 91
+    },
+    {
+      "name": "lemon",
+      "color": "yellow",
+      "taste": "sour",
+      "quantity": 12
+    },
+    {
+      "name": "orange",
+      "color": "orange",
+      "taste": "citrus",
+      "quantity": 108
+    },
+    {
+      "name": "strawberry",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 88
+    },
+    {
+      "name": "grape",
+      "color": "purple",
+      "taste": "sweet",
+      "quantity": 72
+    },
+    {
+      "name": "watermelon",
+      "color": "green",
+      "taste": "sweet",
+      "quantity": 48
+    },
+    {
+      "name": "pineapple",
+      "color": "brown",
+      "taste": "tropical",
+      "quantity": 19
+    },
+    {
+      "name": "mango",
+      "color": "orange",
+      "taste": "tropical",
+      "quantity": 97
+    },
+    {
+      "name": "peach",
+      "color": "pink",
+      "taste": "sweet",
+      "quantity": 18
+    },
+    {
+      "name": "pear",
+      "color": "green",
+      "taste": "sweet",
+      "quantity": 22
+    },
+    {
+      "name": "cherry",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 47
+    },
+    {
+      "name": "blueberry",
+      "color": "blue",
+      "taste": "sweet",
+      "quantity": 97
+    },
+    {
+      "name": "raspberry",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 13
+    },
+    {
+      "name": "blackberry",
+      "color": "black",
+      "taste": "sweet",
+      "quantity": 68
+    },
+    {
+      "name": "kiwi",
+      "color": "brown",
+      "taste": "tangy",
+      "quantity": 55
+    },
+    {
+      "name": "plum",
+      "color": "purple",
+      "taste": "sweet",
+      "quantity": 76
+    },
+    {
+      "name": "apricot",
+      "color": "orange",
+      "taste": "sweet",
+      "quantity": 45
+    },
+    {
+      "name": "fig",
+      "color": "purple",
+      "taste": "sweet",
+      "quantity": 46
+    },
+    {
+      "name": "pomegranate",
+      "color": "red",
+      "taste": "tart",
+      "quantity": 12
+    },
+    {
+      "name": "lime",
+      "color": "green",
+      "taste": "sour",
+      "quantity": 10
+    },
+    {
+      "name": "grapefruit",
+      "color": "pink",
+      "taste": "bitter",
+      "quantity": 115
+    },
+    {
+      "name": "coconut",
+      "color": "brown",
+      "taste": "mild",
+      "quantity": 115
+    },
+    {
+      "name": "papaya",
+      "color": "orange",
+      "taste": "sweet",
+      "quantity": 18
+    },
+    {
+      "name": "guava",
+      "color": "green",
+      "taste": "sweet",
+      "quantity": 82
+    },
+    {
+      "name": "lychee",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 91
+    },
+    {
+      "name": "passion fruit",
+      "color": "purple",
+      "taste": "tangy",
+      "quantity": 50
+    },
+    {
+      "name": "dragon fruit",
+      "color": "pink",
+      "taste": "mild",
+      "quantity": 30
+    },
+    {
+      "name": "cranberry",
+      "color": "red",
+      "taste": "tart",
+      "quantity": 86
+    },
+    {
+      "name": "date",
+      "color": "brown",
+      "taste": "sweet",
+      "quantity": 7
+    },
+    {
+      "name": "persimmon",
+      "color": "orange",
+      "taste": "sweet",
+      "quantity": 69
+    },
+    {
+      "name": "nectarine",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 15
+    },
+    {
+      "name": "tangerine",
+      "color": "orange",
+      "taste": "citrus",
+      "quantity": 14
+    },
+    {
+      "name": "cantaloupe",
+      "color": "orange",
+      "taste": "sweet",
+      "quantity": 40
+    },
+    {
+      "name": "honeydew",
+      "color": "green",
+      "taste": "sweet",
+      "quantity": 101
+    },
+    {
+      "name": "jackfruit",
+      "color": "green",
+      "taste": "sweet",
+      "quantity": 55
+    },
+    {
+      "name": "starfruit",
+      "color": "yellow",
+      "taste": "tangy",
+      "quantity": 8
+    },
+    {
+      "name": "mulberry",
+      "color": "purple",
+      "taste": "sweet",
+      "quantity": 75
+    },
+    {
+      "name": "olive",
+      "color": "green",
+      "taste": "bitter",
+      "quantity": 116
+    },
+    {
+      "name": "avocado",
+      "color": "green",
+      "taste": "creamy",
+      "quantity": 29
+    },
+    {
+      "name": "currant",
+      "color": "red",
+      "taste": "tart",
+      "quantity": 77
+    },
+    {
+      "name": "gooseberry",
+      "color": "green",
+      "taste": "tart",
+      "quantity": 39
+    },
+    {
+      "name": "quince",
+      "color": "yellow",
+      "taste": "tart",
+      "quantity": 120
+    },
+    {
+      "name": "plantain",
+      "color": "yellow",
+      "taste": "starchy",
+      "quantity": 13
+    },
+    {
+      "name": "soursop",
+      "color": "green",
+      "taste": "sweet",
+      "quantity": 42
+    },
+    {
+      "name": "jabuticaba",
+      "color": "purple",
+      "taste": "sweet",
+      "quantity": 30
+    },
+    {
+      "name": "salak",
+      "color": "brown",
+      "taste": "sweet",
+      "quantity": 53
+    },
+    {
+      "name": "rambutan",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 44
+    },
+    {
+      "name": "longan",
+      "color": "brown",
+      "taste": "sweet",
+      "quantity": 18
+    },
+    {
+      "name": "durian",
+      "color": "green",
+      "taste": "strong",
+      "quantity": 42
+    },
+    {
+      "name": "elderberry",
+      "color": "black",
+      "taste": "tart",
+      "quantity": 7
+    },
+    {
+      "name": "boysenberry",
+      "color": "purple",
+      "taste": "sweet",
+      "quantity": 112
+    },
+    {
+      "name": "loganberry",
+      "color": "red",
+      "taste": "tart",
+      "quantity": 109
+    },
+    {
+      "name": "miracle fruit",
+      "color": "red",
+      "taste": "sweet",
+      "quantity": 109
+    },
+    {
+      "name": "breadfruit",
+      "color": "green",
+      "taste": "starchy",
+      "quantity": 57
+    },
+    {
+      "name": "ackee",
+      "color": "red",
+      "taste": "mild",
+      "quantity": 22
+    },
+    {
+      "name": "sapodilla",
+      "color": "brown",
+      "taste": "sweet",
+      "quantity": 77
+    },
+    {
+      "name": "tamarind",
+      "color": "brown",
+      "taste": "sour",
+      "quantity": 88
+    },
+    {
+      "name": "yuzu",
+      "color": "yellow",
+      "taste": "citrus",
+      "quantity": 34
+    },
+    {
+      "name": "ugli fruit",
+      "color": "green",
+      "taste": "citrus",
+      "quantity": 115
+    }
+  ]
+}
