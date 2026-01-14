@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="lavoro 9/1/2026">
-      <change afterPath="$PROJECT_DIR$/PHP_25-26/mercato/magazzino.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/Impiccato/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Impiccato/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/Impiccato/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Impiccato/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/Impiccato/ratio.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Impiccato/ratio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/Impiccato/scoreboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/Impiccato/scoreboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/dbAmici/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/dbAmici/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/magazzino/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/magazzino/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/magazzino/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/magazzino/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODOs/aggiornaTODO.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/TODOs/aggiornaTODO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODOs/es_todos_Bisognin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/TODOs/es_todos_Bisognin.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODOs/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/TODOs/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODOs/nuovoTODO.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/TODOs/nuovoTODO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODOs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/TODOs/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +29,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="218" />
+    <option name="cachedIndexableFilesCount" value="221" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -91,7 +103,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web.server",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -101,14 +113,18 @@
     ]
   }
 }]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1770804018730" />
+    <option name="spentUsd" value="0.01719775" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lucab\Documents\compiti_info\PHP_25-26\Login2\assets" />
       <recent name="C:\Users\lucab\Documents\compiti_info\PHP_25-26\Login2\assets\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lucab\Documents\compiti_info\PHP_25-26\dbBar" />
       <recent name="C:\Users\lucab\Documents\compiti_info\PHP_25-26" />
+      <recent name="C:\Users\lucab\Documents\compiti_info\PHP_25-26\dbBar" />
       <recent name="C:\Users\lucab\Documents\compiti_info\PHP_25-26\Login" />
       <recent name="C:\Users\lucab\Documents\compiti_info\PHP_25-26\Login2" />
       <recent name="C:\Users\lucab\Documents\compiti_info\Java_24-25" />
@@ -161,7 +177,8 @@
       <workItem from="1761815577764" duration="27000" />
       <workItem from="1763028443326" duration="8451000" />
       <workItem from="1763111381072" duration="1701000" />
-      <workItem from="1767952564687" duration="1532000" />
+      <workItem from="1767952564687" duration="1948000" />
+      <workItem from="1768381926797" duration="4915000" />
     </task>
     <task id="LOCAL-00001" summary="added server x tracker AppInventor">
       <option name="closed" value="true" />
@@ -251,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767953899044</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lavoro 9/1/2026">
+      <option name="closed" value="true" />
+      <created>1767954226985</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767954226985</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

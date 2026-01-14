@@ -28,6 +28,8 @@ $rows = $stmt->fetchAll();
     <title>Ratio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
+    <!--icon-->
+    <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
 </head>
 <body class="bg-soft">
 <div class="container py-4">

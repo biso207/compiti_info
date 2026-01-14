@@ -1,17 +1,17 @@
 <?php
-
+// Connessione al database con PDO (base)
 $servername = "localhost";
-$username = "lucabiso";
-$password = "";
-$dbName = "my_lucabiso";
-
+$username   = "lucabiso";
+$password   = "";
+$dbName     = "my_lucabiso";
 
 try {
-  $conn = new PDO("mysql:host=$servername;dbname=$dbName", $username, $password);
-  // set the PDO error mode to exception
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo "Connected successfully";
-} catch(PDOException $e) {
-  echo "Connection failed: " . $e->getMessage();
-  die();
+    $conn = new PDO(
+        "mysql:host=$servername;dbname=$dbName;charset=utf8mb4",
+        $username,
+        $password,
+        [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
+    );
+} catch (PDOException $e) {
+    die("Connection failed: " . $e->getMessage());
 }

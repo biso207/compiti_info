@@ -3,7 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="generator" content="AlterVista - Editor HTML"/>
-        <title></title>
+        <title>DB Amici</title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="style.css">
+        <!--icon-->
+        <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
     </head>
     <body>
 
