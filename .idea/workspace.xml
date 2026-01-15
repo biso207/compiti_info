@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="lavoro 14/1/2026">
+    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="lavoro 15/1/2026">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/magazzino/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/magazzino/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/magazzino/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/magazzino/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_25-26/mercato/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/mercato/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "web.server",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -103,7 +104,10 @@
 }]]></component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1770804018730" />
-    <option name="spentUsd" value="0.01719775" />
+    <option name="spentUsd" value="0.02330325" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="9" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -167,7 +171,7 @@
       <workItem from="1763111381072" duration="1701000" />
       <workItem from="1767952564687" duration="1948000" />
       <workItem from="1768381926797" duration="5075000" />
-      <workItem from="1768471290521" duration="982000" />
+      <workItem from="1768471290521" duration="2042000" />
     </task>
     <task id="LOCAL-00001" summary="added server x tracker AppInventor">
       <option name="closed" value="true" />
@@ -273,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768386960810</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="lavoro 15/1/2026">
+      <option name="closed" value="true" />
+      <created>1768472340302</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768472340302</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +312,7 @@
     <MESSAGE value="lavoro 29/10/2025" />
     <MESSAGE value="lavoro 9/1/2026" />
     <MESSAGE value="lavoro 14/1/2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="lavoro 14/1/2026" />
+    <MESSAGE value="lavoro 15/1/2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="lavoro 15/1/2026" />
   </component>
 </project>

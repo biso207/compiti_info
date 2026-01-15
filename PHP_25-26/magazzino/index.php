@@ -123,7 +123,7 @@ $to   = min($page * $perPage, $total);
 
             <div class="card-footer bg-white d-flex justify-content-between align-items-center">
                 <div class="text-muted small">
-                    Mostrando <?= (int)$from ?> a <?= (int)$to ?> di <?= (int)$total ?> risultati
+                    Mostrando <?= (int)$from ?> a <?= (int)$to ?> di <?= $total ?> risultati
                 </div>
                 <nav aria-label="Page navigation">
                     <?= renderPagination($page, $pages, $status) ?>

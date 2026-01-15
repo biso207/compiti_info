@@ -17,15 +17,18 @@
                 <?php
                     require "fruit.php";
 
+                    // lettura del file json
                     $fp = fopen("magazzino.json", "r");
                     $data = json_decode(fread($fp, filesize("magazzino.json")), true);
                     fclose($fp);
 
+                    // recupero elementi dal json e creazione oggetti
                     $bancarella = [];
                     foreach ($data["fruits"] as $f) {
                         $bancarella[] = new Fruit($f["name"], $f["color"], $f["taste"], $f["quantity"]);
                     }
 
+                    // stampa elementi
                     foreach ($bancarella as $fruit) $fruit->print_info();
                 ?>
             </section>
