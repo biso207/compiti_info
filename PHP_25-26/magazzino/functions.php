@@ -58,7 +58,7 @@ function getProducts($page, $perPage, $status = "all") {
 // Badge disponibilità (come visto in classe: dipende dalla giacenza)
 function availabilityBadge($giacenza) {
     if ($giacenza <= 0) return "<span class='badge bg-danger'>Esaurito</span>";
-    if ($giacenza <= 5) return "<span class='badge bg-warning text-dark'>Sottoscorta</span>";
+    if ($giacenza <= 5) return "<span class='badge bg-warning text-dark'>Sotto Scorta</span>";
     return "<span class='badge bg-success'>Disponibile</span>";
 }
 
