@@ -40,10 +40,11 @@ class Fruit {
 
     // stampa info elemento
     public function print_info() {
-        $name  = htmlspecialchars($this->name);
-        $color = htmlspecialchars($this->color);
-        $taste = htmlspecialchars($this->taste);
-        $quantity = htmlspecialchars($this->quantity);
+        // nota: ENT_QUOTES serve per stampare in modo sicuro anche dentro gli attributi HTML
+        $name  = htmlspecialchars($this->name, ENT_QUOTES);
+        $color = htmlspecialchars($this->color, ENT_QUOTES);
+        $taste = htmlspecialchars($this->taste, ENT_QUOTES);
+        $quantity = (int)$this->quantity;
 
         echo
         "
@@ -54,9 +55,15 @@ class Fruit {
                 </div>
                 <p class='card__meta'>Color: <b>$color</b></p>
                 <p class='card__meta'>Taste: <b>$taste</b></p>
-                <p class='card__meta'>Quantity: <b>$quantity</b></p>
+                <div class='card__meta'>
+                    Quantity: <b>$quantity</b>
+                    <form method='post' style='display:inline-block; margin-left:10px;'>
+                        <input type='hidden' name='fruit_name' value='$name'>
+                        <button type='submit' name='delta' value='-1' aria-label='decrease quantity'>-</button>
+                        <button type='submit' name='delta' value='1' aria-label='increase quantity'>+</button>
+                    </form>
+                </div>
             </div>
         ";
     }
-
 }
