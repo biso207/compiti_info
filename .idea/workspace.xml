@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="lavoro 15/1/2026">
+    <list default="true" id="6f32d790-eeb2-45c6-bdf6-86fac4dae962" name="Changes" comment="compiti 21/1/2026">
+      <change afterPath="$PROJECT_DIR$/PHP_25-26/DB_OOP/DB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_25-26/DB_OOP/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/magazzino/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/magazzino/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/mercato/fruit.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/mercato/fruit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/mercato/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/mercato/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP_25-26/mercato/magazzino.json" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_25-26/mercato/magazzino.json" afterDir="false" />
     </list>
+    <list id="91b1ea13-8d7e-4590-b4b8-6f31a32659d5" name="Changes by Matteo" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +45,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/biso207/compiti_info.git&quot;,
-    &quot;accountId&quot;: &quot;07946168-5cf6-489e-821b-43a95bffe1f0&quot;
+    &quot;accountId&quot;: &quot;793490ed-17dc-4cd9-9de0-0bfd6364ecbb&quot;
   }
 }</component>
   <component name="McpProjectServerCommands">
@@ -106,10 +105,10 @@
 }</component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1770804018730" />
-    <option name="spentUsd" value="0.075815395" />
+    <option name="spentUsd" value="0.08004014" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="1" />
+    <option name="suspendCountdown" value="0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -174,7 +173,13 @@
       <workItem from="1767952564687" duration="1948000" />
       <workItem from="1768381926797" duration="5075000" />
       <workItem from="1768471290521" duration="6155000" />
-      <workItem from="1769030237847" duration="733000" />
+      <workItem from="1769030237847" duration="874000" />
+      <workItem from="1769076461675" duration="281000" />
+      <workItem from="1769082793025" duration="58000" />
+      <workItem from="1769082929716" duration="40000" />
+      <workItem from="1769083871320" duration="645000" />
+      <workItem from="1769681791978" duration="1780000" />
+      <workItem from="1770368863567" duration="4611000" />
     </task>
     <task id="LOCAL-00001" summary="added server x tracker AppInventor">
       <option name="closed" value="true" />
@@ -296,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768473603020</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="compiti 21/1/2026">
+      <option name="closed" value="true" />
+      <created>1769031643901</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1769031643901</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +337,7 @@
     <MESSAGE value="lavoro 9/1/2026" />
     <MESSAGE value="lavoro 14/1/2026" />
     <MESSAGE value="lavoro 15/1/2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="lavoro 15/1/2026" />
+    <MESSAGE value="compiti 21/1/2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="compiti 21/1/2026" />
   </component>
 </project>
