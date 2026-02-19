@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Login Sessioni</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <h1>Auth</h1>
+        <form action="authentication.php" method="POST">
+            <label for="fusername">Username:</label><br>
+            <input type="text" id="fusername" name="username" required><br>
+            <label for="fpassword">Password:</label><br>
+            <input type="password" id="fpassword" name="password" required><br>
+            <!-- possibilità di submit -->
+            <br><input type="submit" name="login" value="Login">
+            <input type="submit" name="signup" value="Signup">
+        </form>
+    </body>
+</html>
