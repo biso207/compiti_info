@@ -19,7 +19,7 @@
                     break;
 
                 case 'correct':
-                    echo '<h2 class="success">CORRECT CREDENTIAL</h2>';
+                    echo '<h2 class="success">WELCOME</h2>';
                     break;
 
                 case 'created':
