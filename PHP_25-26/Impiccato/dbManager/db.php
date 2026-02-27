@@ -17,5 +17,5 @@ try {
         ]
     );
 } catch (PDOException $e) {
-    die("Errore connessione DB: " . htmlspecialchars($e->getMessage()));
+    die("Errore connessione DBSessions: " . htmlspecialchars($e->getMessage()));
 }

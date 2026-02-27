@@ -3,8 +3,8 @@
 <?php
 require "DB.php";
 
-// creazione oggetto DB
-$db = new DB("localhost", "my_lucabiso", "lucabiso", "");
+// creazione oggetto DBSessions
+$db = new DBSessions("localhost", "my_lucabiso", "lucabiso", "");
 
 $conn = $db->get_conn();
 

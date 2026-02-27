@@ -23,7 +23,7 @@ $hasGuess = ($_SERVER["REQUEST_METHOD"] === "POST" && $action === "guess");
 
 $jsonPath = __DIR__ . "/data/words.json";
 
-// ---------------- DB helpers ----------------
+// ---------------- DBSessions helpers ----------------
 function get_player(PDO $pdo, string $username): ?array {
     $stmt = $pdo->prepare("SELECT * FROM partite WHERE username = ?");
     $stmt->execute([$username]);

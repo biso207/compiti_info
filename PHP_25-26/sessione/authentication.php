@@ -1,5 +1,5 @@
 <?php
-require "DB.php";
+require "DB_Sessions.php";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // variabili
     $username = $_POST['username'];
@@ -12,10 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $psw_hashed = password_hash($password, PASSWORD_BCRYPT);
 
 
-    // creazione oggetto DB
-    $db = new DB("localhost", "my_lucabiso", "lucabiso", ""); // credenziali utente altervista
+    // creazione oggetto DBSessions
+    $db = new DBSessions("localhost", "my_lucabiso", "lucabiso", ""); // credenziali utente altervista
 
-    // connessione al DB
+    // connessione al DBSessions
     $conn = $db->get_conn();
 
     // controllo connessione

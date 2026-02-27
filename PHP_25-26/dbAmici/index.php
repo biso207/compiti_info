@@ -23,7 +23,7 @@
         }
 
         $sql = "SELECT * FROM amici";
-        echo "<p>Nome e cognome di amici presenti nel DB :</p>";
+        echo "<p>Nome e cognome di amici presenti nel DBSessions :</p>";
         foreach ($conn->query($sql) as $row){
             echo "<p>"."- ".$row['nome']." ".$row['cognome']."</p>";
         }

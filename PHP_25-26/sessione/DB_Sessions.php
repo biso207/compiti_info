@@ -1,5 +1,5 @@
 <?php
-class DB {
+class DBSessions {
     // variabili membro (attributi) //
     private $conn, $connected,$msg;
 
@@ -19,14 +19,32 @@ class DB {
     }
 
     // GETTER //
-    function get_conn() { return $this->conn; }
-    function get_connected() { return $this->connected; }
-    function get_msg() { return $this->msg; }
+    function get_conn(): PDO { return $this->conn; }
+    function get_connected(): bool { return $this->connected; }
+    function get_msg(): string { return $this->msg; }
 
     // METODI //
 
+    // metodo per query generica
+    public function query($sql, $params = [], $mode = PDO::FETCH_BOTH) {
+        $this->msg = null;
+        $stmt = $this->conn->prepare($sql);
+
+        try {
+            $stmt->execute($params);
+        } catch (PDOException $e) {
+            // errori => visualizzo messaggio di errore
+            $this->msg = $e->getMessage();
+            return null;
+        }
+
+        // se la query inizia con SELECT, restituisco i risultati, altrimenti restituisco il numero di righe coinvolte
+        if (stripos($sql, "SELECT") !== false) return $stmt->fetchAll($mode);
+        return $stmt->rowCount();
+    }
+
     // salvataggio credenziali sessione sul db
-    public function save_credentials($username, $password) {
+    public function save_credentials($username, $password) : bool {
         // controllo esistenza utente
         $exist = $this->conn->query("SELECT username FROM sessione_utente WHERE username = '$username'");
         if ($exist->rowCount() > 0) return true; // username esistente => non creato
@@ -40,7 +58,7 @@ class DB {
     }
 
     // verifica credenziali sessione sul db
-    public function check_credentials($username, $password) {
+    public function check_credentials($username, $password) : bool {
         $sql = "SELECT password_hash FROM sessione_utente WHERE username = :username"; // query per db
 
         // preparazione comando
