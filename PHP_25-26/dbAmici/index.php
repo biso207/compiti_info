@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
     <head>
         <meta charset="utf-8">
         <meta name="generator" content="AlterVista - Editor HTML"/>
@@ -10,6 +10,13 @@
         <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
     </head>
     <body>
+
+        <!-barra di navigazione-->
+        <nav class="navbar">
+            <ul>
+                <li><a class="backIndex" href="../../index.html">Progetti 5CIN</a></li>
+            </ul>
+        </nav>
 
         <?php
         $conn = null;

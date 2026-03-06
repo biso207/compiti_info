@@ -1,80 +1,119 @@
-/* snippet per i font */
+/* ================= FONT ================= */
 @font-face {
     font-family: "inter-regular";
     src: url('fonts/Inter-Regular.ttf') format("truetype");
 }
+
 @font-face {
     font-family: "inter-medium";
     src: url('fonts/Inter-Medium.ttf') format("truetype");
 }
 
+
+/* ================= BASE ================= */
 html, body {
-    background: #151A3B;
-    color: #fff;
-    font-family: inter-regular, sans-serif;
-    scroll-behavior: smooth; /* fluidità nello scroll della pagina */
+    background: linear-gradient(135deg, #151A3B, #0f132b);
+    color: #ffffff;
+    font-family: "inter-regular", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* selezione testo */
+::selection {
+    background: #ffe066;
+    color: #000;
+}
+
+
+/* ================= LINK ================= */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.25s ease;
+}
+
+a:hover {
+    color: #cfcfcf;
+}
+
+
+/* ================= IMMAGINI ================= */
+img {
+    transition: transform 0.4s ease, filter 0.4s ease;
 }
 
 img:hover {
     transform: scale(1.05);
-    transition: transform 0.5s ease;
+    filter: brightness(1.1);
 }
 
+
+/* ================= INPUT ================= */
 input {
-    border-radius: 5px;
+    border-radius: 6px;
     margin: 3px;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
 }
 
-input[type="submit"]:hover {
-    background-color: #ffe066;
+/* bottoni */
+input[type="submit"],
+input[type="reset"] {
+    background: #2d2654;
+    color: white;
+    cursor: pointer;
 }
+
+/* hover bottoni */
+input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color: #ffe066;
+    background: #ffe066;
+    color: #000;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
 }
 
-/* stile barra di navigazione in alto */
+
+/* ================= NAVBAR ================= */
 .navbar {
-    font-family: 'inter-medium', sans-serif;
-    background-color: #2d2654;
-    padding: 20px;
+    font-family: "inter-medium", sans-serif;
+    background: rgba(45, 38, 84, 0.75);
+    backdrop-filter: blur(8px);
+    padding: 18px 0;
     width: 100%;
     box-sizing: border-box;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
+/* lista navbar */
 .navbar ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     display: flex;
-    margin: 0 50px;
-    justify-content: right;
-    gap: 20px;
+    margin: 0 60px;
+    justify-content: flex-end;
+    gap: 25px;
 }
 
+/* link navbar */
 .navbar a {
     color: white;
-    text-decoration: none;
     font-size: 16px;
-    padding: 10px 15px;
-    transition: color 0.2s ease;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
 }
 
+/* hover navbar */
 .navbar a:hover {
     color: #ffe066;
+    background: rgba(255,255,255,0.05);
+    transform: translateY(-2px);
 }
 
+/* link speciale */
 .navbar .backIndex:hover {
     color: coral;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    color: grey;
-}
-
-a::selection {
-    color: darkgray;
 }

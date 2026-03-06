@@ -26,6 +26,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
 </head>
 <body class="bg-soft">
+<!-barra di navigazione-->
+<nav class="navbar">
+    <ul>
+        <li><a class="backIndex" href="../../index.html">Progetti 5CIN</a></li>
+    </ul>
+</nav>
 <div class="container py-5">
     <div class="card shadow-sm p-4 mx-auto" style="max-width:520px;">
         <h1 class="h4 mb-3">The Hangman</h1>

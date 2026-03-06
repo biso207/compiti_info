@@ -38,6 +38,13 @@ $to   = min($page * $perPage, $total);
 </head>
 <body>
 
+<!-barra di navigazione-->
+<nav class="navbar">
+    <ul>
+        <li><a class="backIndex" href="../../index.html">Progetti 5CIN</a></li>
+    </ul>
+</nav>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">

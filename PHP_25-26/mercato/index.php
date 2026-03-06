@@ -49,6 +49,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Ortofrutta</title>
 </head>
 <body>
+
+<!-barra di navigazione-->
+<nav class="navbar">
+    <ul>
+        <li><a class="backIndex" href="../../index.html">Progetti 5CIN</a></li>
+    </ul>
+</nav>
+
 <header class="header">
     <h1>Ortofrutta</h1>
     <p>Magazzino frutta (dal JSON)</p>

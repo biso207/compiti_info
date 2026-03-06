@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+
+    <title>Query Database</title>
+    <!--style sheet-->
+    <link rel="stylesheet" href="../style.css">
+    <!--icon-->
+    <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
+  </head>
+
+  <body>
+
+    <!-barra di navigazione-->
+    <nav class="navbar">
+      <ul>
+        <li><a class="backIndex" href="../../index.html">Progetti 5CIN</a></li>
+      </ul>
+    </nav>
+
+    <h2>Interroga tabella database</h2>
+
+    <form action="query.php" method="POST">
+      <label>Nome tabella:</label>
+
+      <br><br>
+      <label><input type="text" name="table" required></label>
+      <br><br>
+
+      <button type="submit">Esegui query</button>
+    </form>
+
+  </body>
+</html>

@@ -9,11 +9,10 @@
         <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
     </head>
     <body>
-
         <!-barra di navigazione-->
         <nav class="navbar">
             <ul>
-                <li><a class="backIndex" href="../../../Progetti_5CIN/index.html">Home Esercizi</a></li>
+                <li><a class="backIndex" href="../../index.html">Progetti 5CIN</a></li>
             </ul>
         </nav>
 

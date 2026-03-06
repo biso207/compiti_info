@@ -1,69 +1,77 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>My TODOs</title>
-            <!-- stylesheet -->
-            <link rel="stylesheet" href="style.css">
-            <!--icon-->
-            <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
-        </head>
-        <body>
-        <h1>Lista TODO</h1>
-        <p class="subtitle">Visualizza le attività salvate nel database</p>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My TODOs</title>
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        <!--icon-->
+        <link rel="icon" href="../../../assets/img/favicons/page_icon.png" type="image/png">
+    </head>
+    <body>
 
-        <div class="todo-container">
-            <!-- TODOs verranno visualizzati qui -->
-            <?php
-                // parametri del db
-                $servername = "localhost";
-                $username = "lucabiso";
-                $password = "";
-                $database = "my_lucabiso";
+            <!-barra di navigazione-->
+            <nav class="navbar">
+                <ul>
+                    <li><a class="backIndex" href="../../index.html">Progetti 5CIN</a></li>
+                </ul>
+            </nav>
 
-                // connessione al database
-                try {
-                    $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
-                    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                } catch(PDOException $e) {
-                    echo "<p style='color:red;'>Connection failed: " . $e->getMessage() . "</p>";
-                    die();
-                }
+            <h1>Lista TODO</h1>
+            <p class="subtitle">Visualizza le attività salvate nel database</p>
 
-                // recupero dei TODOs dal database
-                try {
-                    $stmt = $conn->prepare("SELECT * FROM TODOs"); // preparazione della query
-                    $stmt->execute(); // esecuzione della query
-                } catch(PDOException $e) {
-                    echo "<p style='color:red;'>Query failed: " . $e->getMessage() . "</p>";
-                    die();
-                }
+            <div class="todo-container">
+                <!-- TODOs verranno visualizzati qui -->
+                <?php
+                    // parametri del db
+                    $servername = "localhost";
+                    $username = "lucabiso";
+                    $password = "";
+                    $database = "my_lucabiso";
 
-                // --- visualizzazione dei TODOs --- //
-                $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                    // connessione al database
+                    try {
+                        $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
+                        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                    } catch(PDOException $e) {
+                        echo "<p style='color:red;'>Connection failed: " . $e->getMessage() . "</p>";
+                        die();
+                    }
 
-                if (count($result) === 0) {
-                    echo "<p>Nessun TODO presente.</p>";
-                }
+                    // recupero dei TODOs dal database
+                    try {
+                        $stmt = $conn->prepare("SELECT * FROM TODOs"); // preparazione della query
+                        $stmt->execute(); // esecuzione della query
+                    } catch(PDOException $e) {
+                        echo "<p style='color:red;'>Query failed: " . $e->getMessage() . "</p>";
+                        die();
+                    }
 
-                foreach($result as $row) {
-                    // operatore ternario per stampare il bottone "Completa" o "Annulla"
-                    $isCompleted = $row['completato'] ?
-                            "<a class='status completed' href='aggiornaTODO.php?id={$row['id']}&stato=0'>Annulla</a>" :
-                            "<a class='status pending' href='aggiornaTODO.php?id={$row['id']}&stato=1'>Completa</a>";
+                    // --- visualizzazione dei TODOs --- //
+                    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-                    echo "
-                        <div class='todo'>
-                            <h2>{$row['titolo']}</h2>
-                            <p class='description'>{$row['descrizione']}</p>
-                            $isCompleted
-                        </div>
-                        ";
-                }
-            ?>
-        </div><br>
+                    if (count($result) === 0) {
+                        echo "<p>Nessun TODO presente.</p>";
+                    }
 
-        <a class='status newTODO' href='nuovoTODO.php'>Crea TODO</a>
+                    foreach($result as $row) {
+                        // operatore ternario per stampare il bottone "Completa" o "Annulla"
+                        $isCompleted = $row['completato'] ?
+                                "<a class='status completed' href='aggiornaTODO.php?id={$row['id']}&stato=0'>Annulla</a>" :
+                                "<a class='status pending' href='aggiornaTODO.php?id={$row['id']}&stato=1'>Completa</a>";
+
+                        echo "
+                            <div class='todo'>
+                                <h2>{$row['titolo']}</h2>
+                                <p class='description'>{$row['descrizione']}</p>
+                                $isCompleted
+                            </div>
+                            ";
+                    }
+                ?>
+            </div><br>
+
+            <a class='status newTODO' href='nuovoTODO.php'>Crea TODO</a>
     </body>
 </html>

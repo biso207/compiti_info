@@ -1,0 +1,159 @@
+/* ================= FONT ================= */
+@font-face {
+    font-family: "inter-regular";
+    src: url('fonts/Inter-Regular.ttf') format("truetype");
+}
+
+
+/* ================= BASE ================= */
+html, body {
+    background: linear-gradient(135deg, #151A3B, #0f132b);
+    color: #ffffff;
+    font-family: "inter-regular", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* selezione testo */
+::selection {
+    background: #ffe066;
+    color: #000;
+}
+
+
+/* ================= LINK ================= */
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+}
+
+
+/* ================= INPUT ================= */
+input {
+    border-radius: 6px;
+    margin: 3px;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+}
+
+
+/* ================= NAVBAR ================= */
+.navbar {
+    font-family: "inter-regular", sans-serif;
+
+    background: rgba(45, 38, 84, 0.75);
+    backdrop-filter: blur(8px);
+
+    padding: 18px 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0 60px;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 16px;
+    padding: 8px 14px;
+    border-radius: 8px;
+
+    transition: all 0.25s ease;
+}
+
+/* hover pulito senza underline */
+.navbar a:hover {
+    color: #ffe066;
+    background: rgba(255,255,255,0.06);
+    transform: translateY(-2px);
+}
+
+.navbar .backIndex:hover {
+    color: coral;
+}
+
+
+/* ================= PROJECT SECTION ================= */
+.project-section {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+
+/* ================= PROJECT LINK ================= */
+.projectLink {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ================= PROJECT CARD ================= */
+.project {
+    min-height: 190px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 35px 25px;
+    border-radius: 18px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    background: linear-gradient(145deg, #2d2654, #201b40);
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+
+    transition: transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border 0.35s ease;
+}
+
+
+/* hover card */
+.project:hover {
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 18px 40px rgba(0,0,0,0.5);
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    cursor: pointer;
+}
+
+
+/* titolo progetto */
+.project h1 {
+    font-size: 1.45rem;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+
+/* tecnologie */
+.project .tech {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    color: #cfcfff;
+}
